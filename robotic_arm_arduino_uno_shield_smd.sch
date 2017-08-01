@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3985,8 +3985,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="SUPPLY4" gate="G$2" x="190.5" y="22.86"/>
 <instance part="SUPPLY5" gate="G$2" x="220.98" y="22.86"/>
 <instance part="SUPPLY6" gate="G$1" x="281.94" y="22.86"/>
-<instance part="REC_SW" gate="G$1" x="297.18" y="91.44" rot="R90"/>
-<instance part="PLAY_SW" gate="G$1" x="327.66" y="91.44" rot="R270"/>
+<instance part="REC_SW" gate="G$1" x="297.18" y="91.44" rot="R270"/>
+<instance part="PLAY_SW" gate="G$1" x="327.66" y="91.44" rot="R90"/>
 <instance part="R2" gate="G$1" x="327.66" y="73.66" rot="R90"/>
 <instance part="GND7" gate="GND" x="297.18" y="60.96"/>
 <instance part="GND8" gate="GND" x="327.66" y="60.96"/>
@@ -4240,7 +4240,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="327.66" y1="81.28" x2="327.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="81.28" x2="327.66" y2="81.28" width="0.1524" layer="91"/>
 <label x="335.28" y="81.28" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="PLAY_SW" gate="G$1" pin="3"/>
+<pinref part="PLAY_SW" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="86.36" x2="327.66" y2="81.28" width="0.1524" layer="91"/>
 <junction x="327.66" y="81.28"/>
 </segment>
@@ -4253,12 +4253,12 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="REC_SW" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="78.74" x2="297.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="81.28" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="81.28" x2="304.8" y2="81.28" width="0.1524" layer="91"/>
-<junction x="297.18" y="81.28"/>
 <label x="304.8" y="81.28" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="REC_SW" gate="G$1" pin="3"/>
+<wire x1="297.18" y1="81.28" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
+<junction x="297.18" y="81.28"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -4435,11 +4435,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="REC_SW" gate="G$1" pin="3"/>
-<wire x1="297.18" y1="96.52" x2="297.18" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="5V" pin="5V"/>
-</segment>
-<segment>
 <wire x1="180.34" y1="-30.48" x2="190.5" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-30.48" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="5V"/>
@@ -4464,15 +4459,20 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <pinref part="POT4" gate="J$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="PLAY_SW" gate="G$1" pin="1"/>
-<pinref part="SUPPLY9" gate="5V" pin="5V"/>
-<wire x1="327.66" y1="96.52" x2="327.66" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY15" gate="5V" pin="5V"/>
 <wire x1="215.9" y1="99.06" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="215.9" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="5V" pin="5V"/>
+<pinref part="PLAY_SW" gate="G$1" pin="3"/>
+<wire x1="327.66" y1="101.6" x2="327.66" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="REC_SW" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="5V" pin="5V"/>
+<wire x1="297.18" y1="96.52" x2="297.18" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
