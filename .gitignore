@@ -1,0 +1,5 @@
+*
+
+!.gitignore
+!robotic_arm_arduino_uno_shield_smd.brd
+!robotic_arm_arduino_uno_shield_smd.sch
