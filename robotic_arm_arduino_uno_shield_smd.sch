@@ -4562,7 +4562,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <pinref part="SERVO4" gate="J$1" pin="2"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="VBATT" class="0">
 <segment>
 <wire x1="187.96" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="175.26" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
