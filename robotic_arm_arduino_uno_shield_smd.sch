@@ -2975,8 +2975,8 @@ part number 2062-2P from STA</description>
 <vertex x="0.5" y="0"/>
 </polygon>
 <wire x1="0.5" y1="0.8" x2="0.5" y2="-0.8" width="0.127" layer="21"/>
-<text x="0" y="2.064" size="1.27" layer="21" font="vector" ratio="10" rot="R180" align="center">&gt;Name</text>
-<text x="0" y="-2.032" size="1.27" layer="21" font="vector" ratio="10" rot="R180" align="center">1A/50V</text>
+<text x="0" y="2.064" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-2.032" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
 <package name="POWER_JACK_SLOT_ID2.1MM-OD5.5MM">
 <wire x1="4.25" y1="6.08" x2="-0.25" y2="6.08" width="0.2032" layer="21"/>
@@ -3145,8 +3145,8 @@ part number 2062-2P from STA</description>
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-0.254" y="0.254" size="1.27" layer="95" font="vector" ratio="10" rot="R90">&gt;Name</text>
-<text x="4.064" y="0.254" size="1.27" layer="96" font="vector" ratio="10" rot="R90">1A/50V</text>
+<text x="-0.254" y="0.254" size="1.27" layer="95" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.794" y="0.254" size="1.27" layer="96" font="vector" ratio="10" rot="R90" align="top-left">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="K" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
@@ -3863,8 +3863,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="GND1" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND2" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="R1" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
-<part name="C1" library="MrSwirlyEyes" deviceset="CAPACITOR_CERAMIC" device="_SMD-805_0.22UF-50V-10%" value="0.22uF/50V"/>
 <part name="C2" library="MrSwirlyEyes" deviceset="CAPACITOR_CERAMIC" device="_SMD-805_0.22UF-50V-10%" value="0.22uF/50V"/>
+<part name="C1" library="MrSwirlyEyes" deviceset="CAPACITOR_CERAMIC" device="_SMD-805_0.22UF-50V-10%" value="0.22uF/50V"/>
 <part name="C3" library="MrSwirlyEyes" deviceset="CAPACITOR_CERAMIC" device="_SMD-805_0.1UF-50V-10%" value="0.1uF/50V"/>
 <part name="C4" library="MrSwirlyEyes" deviceset="CAPACITOR_CERAMIC" device="_SMD-805_0.1UF-50V-10%" value="0.1uF/50V"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC_1" device=""/>
@@ -3881,12 +3881,12 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY8" library="MrSwirlyEyes" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="MrSwirlyEyes" deviceset="5V" device=""/>
-<part name="D1" library="MrSwirlyEyes" deviceset="LED-DISCRETE_SMD-805" device="BLUE" value="BLUE"/>
+<part name="PWR_LED" library="MrSwirlyEyes" deviceset="LED-DISCRETE_SMD-805" device="BLUE" value="BLUE"/>
 <part name="REC_LED" library="MrSwirlyEyes" deviceset="LED-DISCRETE_SMD-805" device="RED" value="RED"/>
 <part name="PLAY_LED" library="MrSwirlyEyes" deviceset="LED-DISCRETE_SMD-805" device="GREEN" value="GREEN"/>
+<part name="R0" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
 <part name="R3" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
 <part name="R4" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
-<part name="R5" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
 <part name="GND9" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND10" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND11" library="MrSwirlyEyes" deviceset="GND" device=""/>
@@ -3897,23 +3897,23 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="POT1" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
-<part name="POT2" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
-<part name="POT3" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
-<part name="POT4" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
+<part name="POT1" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="22K"/>
+<part name="POT2" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="22K"/>
+<part name="POT3" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="22K"/>
+<part name="POT4" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="22K"/>
 <part name="SERVO1" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="SERVO2" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="SERVO3" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="SERVO4" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
-<part name="BATT1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="BATT2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="BATT1" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="6V"/>
+<part name="BATT2" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="6V"/>
 <part name="GND16" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND17" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND18" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="C5" library="MrSwirlyEyes" deviceset="CAPACITOR_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
-<part name="C7" library="MrSwirlyEyes" deviceset="CAPACITOR_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
+<part name="C6" library="MrSwirlyEyes" deviceset="CAPACITOR_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
 <part name="LIPO" library="MrSwirlyEyes" deviceset="BATTERY" device=""/>
-<part name="S0" library="MrSwirlyEyes" deviceset="SW_SPDT_RA_3A/28V/120VAC" device="" value="SPDT"/>
+<part name="PWR_SW" library="MrSwirlyEyes" deviceset="SW_SPDT_RA_3A/28V/120VAC" device="" value="SPDT"/>
 <part name="VREG1" library="MrSwirlyEyes" deviceset="VREG_LM340_LDO_1.5A-5V" device="" value="1.5A/5V"/>
 <part name="D4" library="MrSwirlyEyes" deviceset="DIODE_SMD_GP_1A-50V-SOD123F" device="" value="1A/50V"/>
 <part name="VREG2" library="MrSwirlyEyes" deviceset="VREG_LM340_LDO_1.5A-5V" device="" value="1.5A/5V"/>
@@ -3975,8 +3975,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="GND1" gate="GND" x="264.16" y="175.26"/>
 <instance part="GND2" gate="GND" x="264.16" y="139.7"/>
 <instance part="R1" gate="G$1" x="297.18" y="73.66" rot="R90"/>
-<instance part="C1" gate="G$1" x="241.3" y="187.96"/>
 <instance part="C2" gate="G$1" x="241.3" y="152.4"/>
+<instance part="C1" gate="G$1" x="241.3" y="187.96"/>
 <instance part="C3" gate="G$1" x="287.02" y="187.96"/>
 <instance part="C4" gate="G$1" x="287.02" y="152.4"/>
 <instance part="SUPPLY1" gate="G$2" x="309.88" y="198.12"/>
@@ -3993,12 +3993,12 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="SUPPLY7" gate="G$1" x="205.74" y="182.88"/>
 <instance part="SUPPLY8" gate="5V" x="297.18" y="101.6"/>
 <instance part="SUPPLY9" gate="5V" x="327.66" y="101.6"/>
-<instance part="D1" gate="G$1" x="205.74" y="170.18"/>
+<instance part="PWR_LED" gate="G$1" x="205.74" y="170.18"/>
 <instance part="REC_LED" gate="G$1" x="132.08" y="93.98"/>
 <instance part="PLAY_LED" gate="G$1" x="152.4" y="93.98"/>
-<instance part="R3" gate="G$1" x="205.74" y="154.94" rot="R90"/>
-<instance part="R4" gate="G$1" x="132.08" y="78.74" rot="R90"/>
-<instance part="R5" gate="G$1" x="152.4" y="78.74" rot="R90"/>
+<instance part="R0" gate="G$1" x="205.74" y="154.94" rot="R90"/>
+<instance part="R3" gate="G$1" x="132.08" y="78.74" rot="R90"/>
+<instance part="R4" gate="G$1" x="152.4" y="78.74" rot="R90"/>
 <instance part="GND9" gate="GND" x="152.4" y="66.04"/>
 <instance part="GND10" gate="GND" x="132.08" y="66.04"/>
 <instance part="GND11" gate="GND" x="190.5" y="-40.64"/>
@@ -4023,13 +4023,13 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="GND17" gate="GND" x="314.96" y="182.88"/>
 <instance part="GND18" gate="GND" x="314.96" y="147.32"/>
 <instance part="C5" gate="G$1" x="302.26" y="187.96"/>
-<instance part="C7" gate="G$1" x="302.26" y="152.4"/>
+<instance part="C6" gate="G$1" x="302.26" y="152.4"/>
 <instance part="LIPO" gate="G$1" x="177.8" y="162.56" rot="R270"/>
-<instance part="S0" gate="G$1" x="190.5" y="175.26"/>
+<instance part="PWR_SW" gate="G$1" x="190.5" y="175.26"/>
 <instance part="VREG1" gate="G$1" x="264.16" y="193.04"/>
-<instance part="D4" gate="G$1" x="265.43" y="203.2" rot="R180"/>
+<instance part="D4" gate="G$1" x="265.43" y="167.64" rot="R180"/>
 <instance part="VREG2" gate="G$1" x="264.16" y="157.48"/>
-<instance part="D5" gate="G$1" x="265.43" y="167.64" rot="R180"/>
+<instance part="D5" gate="G$1" x="265.43" y="203.2" rot="R180"/>
 <instance part="C0" gate="G$1" x="218.44" y="165.1"/>
 <instance part="J1" gate="G$1" x="147.32" y="172.72"/>
 <instance part="SUPPLY14" gate="G$1" x="147.32" y="162.56"/>
@@ -4049,10 +4049,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <segment>
 <wire x1="264.16" y1="185.42" x2="264.16" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="GND" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="180.34" x2="264.16" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="180.34" x2="241.3" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="180.34" x2="241.3" y2="182.88" width="0.1524" layer="91"/>
 <junction x="264.16" y="180.34"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="180.34" x2="287.02" y2="180.34" width="0.1524" layer="91"/>
@@ -4062,31 +4060,33 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="302.26" y1="182.88" x2="302.26" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="180.34" x2="287.02" y2="180.34" width="0.1524" layer="91"/>
 <junction x="287.02" y="180.34"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="180.34" x2="241.3" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="GND" pin="GND"/>
 <wire x1="264.16" y1="142.24" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="144.78" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="144.78" x2="241.3" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="144.78" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
 <junction x="264.16" y="144.78"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="144.78" x2="287.02" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="144.78" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
 <junction x="241.3" y="144.78"/>
 <wire x1="205.74" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R0" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="144.78" x2="241.3" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="149.86" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="VREG2" gate="G$1" pin="GND"/>
 <pinref part="C0" gate="G$1" pin="K"/>
 <wire x1="218.44" y1="160.02" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
 <junction x="218.44" y="144.78"/>
-<pinref part="C7" gate="G$1" pin="K"/>
+<pinref part="C6" gate="G$1" pin="K"/>
 <wire x1="302.26" y1="147.32" x2="302.26" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="144.78" x2="287.02" y2="144.78" width="0.1524" layer="91"/>
 <junction x="287.02" y="144.78"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="147.32" x2="241.3" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
@@ -4115,11 +4115,11 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </segment>
 <segment>
 <pinref part="GND10" gate="GND" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="68.58" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="GND" pin="GND"/>
 <wire x1="152.4" y1="73.66" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -4394,43 +4394,43 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <label x="203.2" y="83.82" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="157.48" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="177.8" x2="231.14" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="177.8" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
 <junction x="231.14" y="177.8"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="190.5" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
 <junction x="241.3" y="193.04"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="154.94" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
-<junction x="241.3" y="157.48"/>
 <wire x1="205.74" y1="177.8" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
 <junction x="205.74" y="177.8"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VIN"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="PWR_LED" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="172.72" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="S0" gate="G$1" pin="S1"/>
+<pinref part="PWR_SW" gate="G$1" pin="S1"/>
 <pinref part="VREG1" gate="G$1" pin="VI"/>
 <wire x1="254" y1="193.04" x2="251.46" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="193.04" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="K"/>
-<wire x1="251.46" y1="203.2" x2="260.35" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
 <junction x="251.46" y="193.04"/>
 <pinref part="VREG2" gate="G$1" pin="VI"/>
+<wire x1="231.14" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="157.48" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="K"/>
 <wire x1="251.46" y1="157.48" x2="254" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="260.35" y1="167.64" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="167.64" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
 <junction x="251.46" y="157.48"/>
 <pinref part="C0" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="167.64" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
 <junction x="218.44" y="177.8"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="190.5" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="154.94" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
+<junction x="241.3" y="157.48"/>
+<pinref part="D4" gate="G$1" pin="K"/>
+<wire x1="260.35" y1="167.64" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="260.35" y1="203.2" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -4501,9 +4501,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <pinref part="BATT1" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="193.04" x2="309.88" y2="193.04" width="0.1524" layer="91"/>
 <junction x="309.88" y="193.04"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="302.26" y1="193.04" x2="309.88" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="267.97" y1="203.2" x2="276.86" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="203.2" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="VREG1" gate="G$1" pin="VO"/>
 <wire x1="276.86" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
@@ -4512,6 +4510,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <pinref part="C5" gate="G$1" pin="A"/>
 <wire x1="302.26" y1="190.5" x2="302.26" y2="193.04" width="0.1524" layer="91"/>
 <junction x="302.26" y="193.04"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="267.97" y1="203.2" x2="276.86" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="17.78" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
@@ -4543,11 +4543,11 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="276.86" y1="157.48" x2="287.02" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="157.48" x2="276.86" y2="167.64" width="0.1524" layer="91"/>
 <junction x="276.86" y="157.48"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="276.86" y1="167.64" x2="267.97" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="A"/>
+<pinref part="C6" gate="G$1" pin="A"/>
 <wire x1="302.26" y1="157.48" x2="302.26" y2="154.94" width="0.1524" layer="91"/>
 <junction x="302.26" y="157.48"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="267.97" y1="167.64" x2="276.86" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC_2"/>
@@ -4569,13 +4569,13 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="177.8" y1="170.18" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <junction x="177.8" y="175.26"/>
 <pinref part="LIPO" gate="G$1" pin="P"/>
-<pinref part="S0" gate="G$1" pin="P"/>
+<pinref part="PWR_SW" gate="G$1" pin="P"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="PLAY_LED" gate="G$1" pin="K"/>
 <wire x1="152.4" y1="83.82" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -4583,14 +4583,14 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="REC_LED" gate="G$1" pin="K"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="K"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="PWR_LED" gate="G$1" pin="K"/>
+<pinref part="R0" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4639,6 +4639,24 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,213.36,96.52,3.3V,,,,,"/>
+<approved hash="106,1,200.66,93.98,3.3V,,,,,"/>
+<approved hash="106,1,200.66,68.58,A4,,,,,"/>
+<approved hash="106,1,200.66,71.12,A5,,,,,"/>
+<approved hash="106,1,256.54,58.42,AREF,,,,,"/>
+<approved hash="106,1,256.54,101.6,D2,,,,,"/>
+<approved hash="106,1,256.54,96.52,D4,,,,,"/>
+<approved hash="106,1,256.54,66.04,D12,,,,,"/>
+<approved hash="106,1,256.54,63.5,D13,,,,,"/>
+<approved hash="106,1,200.66,96.52,RESET,,,,,"/>
+<approved hash="106,1,256.54,106.68,RX,,,,,"/>
+<approved hash="106,1,256.54,104.14,TX,,,,,"/>
+<approved hash="113,1,177.123,19.1177,SERVO1,,,,,"/>
+<approved hash="113,1,207.603,19.1177,SERVO2,,,,,"/>
+<approved hash="113,1,238.083,19.1177,SERVO3,,,,,"/>
+<approved hash="113,1,268.563,19.1177,SERVO4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
