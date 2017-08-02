@@ -2913,26 +2913,6 @@ part number 2062-2P from STA</description>
 <smd name="V+" x="-1.508" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 <smd name="V-" x="1.492" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 </package>
-<package name="SW_SPDT_RA_5A/28V/120VAC">
-<hole x="-2.54" y="-2.54" drill="1.09"/>
-<hole x="2.54" y="-2.54" drill="1.09"/>
-<wire x1="-5.08" y1="2.92" x2="5.08" y2="2.92" width="0.127" layer="21"/>
-<wire x1="5.08" y1="2.92" x2="5.08" y2="-7.87" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-7.87" x2="-5.08" y2="-7.87" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-7.87" x2="-5.08" y2="2.92" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="-8" x2="-2.79" y2="-11.1" width="0.127" layer="21"/>
-<wire x1="2.79" y1="-8" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="-11.1" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
-<text x="0" y="-4.064" size="1.27" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
-<text x="0" y="-7.112" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
-<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
-<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
-<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
-</package>
 <package name="SOT223">
 <wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
 <wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
@@ -3033,19 +3013,6 @@ part number 2062-2P from STA</description>
 </package>
 </packages>
 <symbols>
-<symbol name="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA">
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S1" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="S2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="1.27" y="4.318" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
-<text x="1.27" y="-4.318" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
-</symbol>
 <symbol name="SWITCH_MOMENTARY">
 <wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
@@ -3679,33 +3646,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW_SPDT_RA_3A/28V/120VAC">
-<gates>
-<gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_SPDT_RA_5A/28V/120VAC">
-<connects>
-<connect gate="G$1" pin="P" pad="2"/>
-<connect gate="G$1" pin="S1" pad="3"/>
-<connect gate="G$1" pin="S2" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://spec_sheets.e-switch.com/specs/T551101.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=EG2483-ND" constant="no"/>
-<attribute name="DISTPN" value="EG2483-ND" constant="no"/>
-<attribute name="MFR" value="E-Switch" constant="no"/>
-<attribute name="MPN" value="500ASSP1M6QE" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="SPDT" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VREG_LM340_LDO_1.5A-5V">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
@@ -3844,6 +3784,274 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_DPDT_SMD_AYZ0202">
+<description>&lt;h3&gt;ITT Industries AYZ0202 DPDT Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
+<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<hole x="1.5" y="0" drill="0.85"/>
+<hole x="-1.5" y="0" drill="0.85"/>
+<text x="-3.81" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - Locking Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the LOCK version of this package. This package has offset PTH pins, which help to hold the part in place while soldering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - KIT Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0178" y="1.8414" curve="-90.039946"/>
+<vertex x="-0.8787" y="2.6975" curve="-90"/>
+<vertex x="-0.0026" y="3.5916" curve="-90.006409"/>
+<vertex x="0.8738" y="2.6975" curve="-90.03214"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0051" y="-3.5967" curve="-90.006558"/>
+<vertex x="-0.8788" y="-2.7431" curve="-90.037923"/>
+<vertex x="0.0128" y="-1.8363" curve="-90.006318"/>
+<vertex x="0.8814" y="-2.7432" curve="-90.038792"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0102" y="-0.8738" curve="-90.019852"/>
+<vertex x="-0.8762" y="-0.0203" curve="-90.019119"/>
+<vertex x="0.0153" y="0.8789" curve="-90"/>
+<vertex x="0.8739" y="-0.0077" curve="-90.038897"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="2.2758" curve="-90.012891"/>
+<vertex x="-0.4445" y="2.7" curve="-90"/>
+<vertex x="0" y="3.1673" curve="-90"/>
+<vertex x="0.4419" y="2.7102" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0026" y="-3.1648" curve="-90.012891"/>
+<vertex x="-0.4419" y="-2.7406" curve="-90"/>
+<vertex x="0.0026" y="-2.2733" curve="-90"/>
+<vertex x="0.4445" y="-2.7304" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0102" y="-0.4471" curve="-90.012891"/>
+<vertex x="-0.4343" y="-0.0229" curve="-90"/>
+<vertex x="0.0102" y="0.4444" curve="-90"/>
+<vertex x="0.4521" y="-0.0127" curve="-90.012967"/>
+</polygon>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_SPST_SMD_A">
+<description>&lt;h3&gt;SPDT Slide Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SLIDE.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-3.477" y1="0.427" x2="-3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="3.477" y1="0.427" x2="3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="2.7" y1="1.427" x2="-2.7" y2="1.427" width="0.2032" layer="21"/>
+<wire x1="1.627" y1="-1.427" x2="-0.127" y2="-1.427" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+<text x="0.762" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
+<text x="0" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TOGGLE">
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;</description>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<text x="1.27" y="3.048" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.016" y="-3.302" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH-SPDT" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;h4&gt;Variant Overview&lt;/h4&gt;
+&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/102"&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/10547"&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10860"&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13231"&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="1" symbol="TOGGLE" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-11.6X4.0MM" package="SWITCH_SPDT_PTH_11.6X4.0MM">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-AYZ0202" package="SWITCH_DPDT_SMD_AYZ0202">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08179" constant="no"/>
+<attribute name="SF_ID" value="COM-00597" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-11.6X4.0MM-LOCK" package="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102 "/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-11.6X4.0MM-KIT" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-RIGHT-ANGLE" package="SWITCH_SPST_SMD_A">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-10651"/>
+<attribute name="SF_SKU" value="COM-10860"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3913,7 +4121,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="C5" library="MrSwirlyEyes" deviceset="CAPACITOR_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
 <part name="C6" library="MrSwirlyEyes" deviceset="CAPACITOR_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
 <part name="LIPO" library="MrSwirlyEyes" deviceset="BATTERY" device=""/>
-<part name="PWR_SW" library="MrSwirlyEyes" deviceset="SW_SPDT_RA_3A/28V/120VAC" device="" value="SPDT"/>
 <part name="VREG1" library="MrSwirlyEyes" deviceset="VREG_LM340_LDO_1.5A-5V" device="" value="1.5A/5V"/>
 <part name="D4" library="MrSwirlyEyes" deviceset="DIODE_SMD_GP_1A-50V-SOD123F" device="" value="1A/50V"/>
 <part name="VREG2" library="MrSwirlyEyes" deviceset="VREG_LM340_LDO_1.5A-5V" device="" value="1.5A/5V"/>
@@ -3929,6 +4136,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="NGND3" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="NGND4" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="NGND5" library="MrSwirlyEyes" deviceset="NGND" device=""/>
+<part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -4025,7 +4233,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="C5" gate="G$1" x="302.26" y="187.96"/>
 <instance part="C6" gate="G$1" x="302.26" y="152.4"/>
 <instance part="LIPO" gate="G$1" x="177.8" y="162.56" rot="R270"/>
-<instance part="PWR_SW" gate="G$1" x="190.5" y="175.26"/>
 <instance part="VREG1" gate="G$1" x="264.16" y="193.04"/>
 <instance part="D4" gate="G$1" x="265.43" y="167.64" rot="R180"/>
 <instance part="VREG2" gate="G$1" x="264.16" y="157.48"/>
@@ -4041,6 +4248,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <instance part="NGND3" gate="G$1" x="220.98" y="7.62"/>
 <instance part="NGND4" gate="G$1" x="251.46" y="7.62"/>
 <instance part="NGND5" gate="G$1" x="281.94" y="7.62"/>
+<instance part="S1" gate="1" x="190.5" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -4407,7 +4615,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <pinref part="SUPPLY7" gate="G$1" pin="VIN"/>
 <pinref part="PWR_LED" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="172.72" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="PWR_SW" gate="G$1" pin="S1"/>
 <pinref part="VREG1" gate="G$1" pin="VI"/>
 <wire x1="254" y1="193.04" x2="251.46" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="193.04" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
@@ -4431,6 +4638,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="260.35" y1="167.64" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="K"/>
 <wire x1="260.35" y1="203.2" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="O"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -4569,8 +4777,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="177.8" y1="170.18" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <junction x="177.8" y="175.26"/>
 <pinref part="LIPO" gate="G$1" pin="P"/>
-<pinref part="PWR_SW" gate="G$1" pin="P"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
+<pinref part="S1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$1" class="0">

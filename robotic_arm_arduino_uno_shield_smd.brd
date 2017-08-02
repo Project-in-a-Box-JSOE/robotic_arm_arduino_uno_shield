@@ -701,26 +701,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="V+" x="-1.508" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 <smd name="V-" x="1.492" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 </package>
-<package name="SW_SPDT_RA_5A/28V/120VAC">
-<hole x="-2.54" y="-2.54" drill="1.09"/>
-<hole x="2.54" y="-2.54" drill="1.09"/>
-<wire x1="-5.08" y1="2.92" x2="5.08" y2="2.92" width="0.127" layer="21"/>
-<wire x1="5.08" y1="2.92" x2="5.08" y2="-7.87" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-7.87" x2="-5.08" y2="-7.87" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-7.87" x2="-5.08" y2="2.92" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="-8" x2="-2.79" y2="-11.1" width="0.127" layer="21"/>
-<wire x1="2.79" y1="-8" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="-11.1" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
-<text x="0" y="-4.064" size="1.27" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
-<text x="0" y="-7.112" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
-<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
-<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
-<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
-<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
-</package>
 <package name="SOT223">
 <wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
 <wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
@@ -825,6 +805,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$1" x="0" y="0.635" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
 <smd name="P$2" x="0" y="-0.635" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.4064" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -1275,17 +1286,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="LIPO" library="MrSwirlyEyes" package="DUAL_SMD_PADS" value="BATTERY" x="40.64" y="25.908" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.814" y="25.916" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
-<element name="PWR_SW" library="MrSwirlyEyes" package="SW_SPDT_RA_5A/28V/120VAC" value="SPDT" x="36.576" y="35.56" smashed="yes" rot="R90">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET" value="http://spec_sheets.e-switch.com/specs/T551101.pdf" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=EG2483-ND" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="EG2483-ND" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="E-Switch" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="500ASSP1M6QE" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="43.18" y="35.56" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="top-center"/>
-<attribute name="TESTED" value="NO" x="36.576" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="VREG1" library="MrSwirlyEyes" package="SOT223" value="1.5A/5V" x="19.812" y="26.67" smashed="yes">
 <attribute name="CREATOR" value="MrSwirlyEyes" x="19.812" y="26.67" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm340.pdf" x="19.812" y="26.67" size="1.778" layer="27" display="off"/>
@@ -1356,6 +1356,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="TESTED" value="NO" x="36.83" y="17.272" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SUPPLY14" library="SparkFun-PowerSymbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="36.83" y="29.604" smashed="yes" rot="MR90"/>
+<element name="S1" library="SparkFun-Switches" package="SWITCH_SPDT_PTH_11.6X4.0MM" value="" x="42.164" y="35.56">
+<attribute name="PROD_ID" value="SWCH-08261" x="42.164" y="35.56" size="0.6096" layer="27" ratio="10" display="off"/>
+<attribute name="SF_SKU" value="COM-00102" x="42.164" y="35.56" size="0.6096" layer="27" ratio="10" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1554,7 +1558,6 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VIN">
 <contactref element="JP1" pad="6"/>
 <contactref element="PWR_LED" pad="A"/>
-<contactref element="PWR_SW" pad="3"/>
 <contactref element="VREG1" pad="1"/>
 <contactref element="VREG2" pad="1"/>
 <wire x1="17.5006" y1="23.5712" x2="16.449" y2="22.5196" width="1.27" layer="1"/>
@@ -1575,12 +1578,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D5" pad="K"/>
 <wire x1="16.449" y1="19.239" x2="18.162" y2="17.526" width="1.143" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.254">
-<vertex x="34.798" y="37.592"/>
-<vertex x="31.496" y="37.592"/>
-<vertex x="30.48" y="36.576"/>
-<vertex x="30.48" y="30.226"/>
-<vertex x="33.02" y="27.94"/>
-<vertex x="33.02" y="24.384"/>
+<vertex x="43.434" y="37.592"/>
+<vertex x="39.37" y="37.592"/>
+<vertex x="31.496" y="29.718"/>
+<vertex x="31.496" y="24.384"/>
 <vertex x="24.638" y="16.764"/>
 <vertex x="24.638" y="2.286"/>
 <vertex x="23.622" y="2.286"/>
@@ -1600,8 +1601,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="21.844" y="16.51"/>
 <vertex x="24.13" y="18.796"/>
 <vertex x="24.13" y="36.576"/>
-<vertex x="26.67" y="38.862"/>
-<vertex x="34.798" y="38.862"/>
+<vertex x="26.416" y="38.608"/>
+<vertex x="43.434" y="38.608"/>
 </polygon>
 <wire x1="8.636" y1="17.526" x2="8.764" y2="17.526" width="1.27" layer="1"/>
 <wire x1="7.051" y1="20.32" x2="7.051" y2="19.619" width="1.143" layer="1"/>
@@ -1617,6 +1618,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.13" y1="2.54" x2="24.13" y2="3.81" width="1.27" layer="1"/>
 <wire x1="8.764" y1="17.526" x2="7.051" y2="19.239" width="1.143" layer="1"/>
 <wire x1="7.051" y1="19.239" x2="7.051" y2="20.32" width="1.143" layer="1"/>
+<contactref element="S1" pad="1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="3"/>
@@ -1707,15 +1709,13 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="VBATT">
 <contactref element="LIPO" pad="V+"/>
-<contactref element="PWR_SW" pad="2"/>
 <contactref element="J1" pad="PWR"/>
 <polygon width="0.254" layer="1">
-<vertex x="48.26" y="36.83"/>
-<vertex x="31.75" y="36.83"/>
-<vertex x="31.242" y="36.322"/>
-<vertex x="31.242" y="30.48"/>
-<vertex x="39.116" y="30.48"/>
-<vertex x="39.624" y="29.972"/>
+<vertex x="53.34" y="36.83"/>
+<vertex x="39.624" y="36.83"/>
+<vertex x="35.56" y="33.02"/>
+<vertex x="35.56" y="32.766"/>
+<vertex x="39.624" y="28.702"/>
 <vertex x="39.624" y="25.908"/>
 <vertex x="42.164" y="25.908"/>
 <vertex x="42.164" y="22.86"/>
@@ -1726,8 +1726,9 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="30.48" y="14.478"/>
 <vertex x="33.274" y="14.478"/>
 <vertex x="36.322" y="17.272"/>
-<vertex x="48.26" y="17.272"/>
+<vertex x="53.34" y="17.272"/>
 </polygon>
+<contactref element="S1" pad="2"/>
 </signal>
 <signal name="N$1">
 <contactref element="R4" pad="2"/>
@@ -1760,38 +1761,40 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SERVO4" pad="1"/>
 <wire x1="29.21" y1="43.18" x2="26.67" y2="43.18" width="1.27" layer="16"/>
 <polygon width="0.254" layer="16" isolate="0.254">
-<vertex x="40.894" y="39.878"/>
-<vertex x="40.894" y="31.242"/>
-<vertex x="33.274" y="31.242"/>
-<vertex x="33.274" y="24.892"/>
-<vertex x="50.8" y="24.892"/>
+<vertex x="17.018" y="38.1"/>
+<vertex x="31.496" y="38.1"/>
+<vertex x="34.29" y="35.56"/>
+<vertex x="34.29" y="24.638"/>
+<vertex x="50.8" y="24.638"/>
 <vertex x="50.8" y="44.196"/>
 <vertex x="33.02" y="44.196"/>
 <vertex x="33.02" y="41.91"/>
 <vertex x="30.48" y="41.91"/>
 <vertex x="30.48" y="44.196"/>
-<vertex x="24.638" y="44.196"/>
-<vertex x="24.638" y="41.148"/>
-<vertex x="19.558" y="41.148"/>
-<vertex x="19.558" y="44.196"/>
-<vertex x="15.494" y="44.196"/>
-<vertex x="15.494" y="38.1"/>
-<vertex x="29.585615625" y="38.1" curve="45"/>
-<vertex x="32.413240625" y="39.271240625" curve="-45"/>
-<vertex x="33.8780875" y="39.878"/>
+<vertex x="25.146" y="44.196"/>
+<vertex x="24.638" y="43.688"/>
+<vertex x="24.638" y="41.91"/>
+<vertex x="23.876" y="41.148"/>
+<vertex x="20.32" y="41.148"/>
+<vertex x="19.558" y="41.91"/>
+<vertex x="19.558" y="43.688"/>
+<vertex x="19.05" y="44.196"/>
+<vertex x="16.256" y="44.196"/>
+<vertex x="15.494" y="43.434"/>
+<vertex x="15.494" y="39.624"/>
 </polygon>
 <contactref element="SUPPLY14" pad="P$1"/>
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,f2e4af04134f36b3"/>
 <approved hash="18,29,b4e491492d0270b3"/>
+<approved hash="18,29,f2e4af04134f36b3"/>
 <approved hash="18,29,37ff62ee656f3e1e"/>
-<approved hash="18,29,62e4fded9288aadd"/>
 <approved hash="18,29,e766bd6551e3a3ce"/>
+<approved hash="18,29,62e4fded9288aadd"/>
 <approved hash="18,29,9ff288acf65e9935"/>
-<approved hash="18,29,de7456fc571edf96"/>
 <approved hash="18,29,124a64f264f7124f"/>
+<approved hash="18,29,de7456fc571edf96"/>
 <approved hash="18,29,4d388a1aab0c0404"/>
 <approved hash="18,29,4c15b375b20e7506"/>
 <approved hash="18,29,b20a5e725e45b23d"/>
@@ -1799,8 +1802,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,8eee9de05d374e39"/>
 <approved hash="18,29,18c22152dff2e662"/>
 <approved hash="18,29,b396c3aec3abb393"/>
-<approved hash="18,29,7e357b59755c38ab"/>
 <approved hash="18,29,2c147b251377fa2b"/>
+<approved hash="18,29,7e357b59755c38ab"/>
 <approved hash="18,29,7ae033282470d7c4"/>
 <approved hash="18,29,870933aed3ef2bc2"/>
 <approved hash="18,29,1438eecb2ecad439"/>
@@ -1811,8 +1814,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,b296c8aec8a7b29f"/>
 <approved hash="18,29,6c14332ae30a76ab"/>
 <approved hash="18,29,8e3533593521b424"/>
-<approved hash="18,29,6709b5ae42bd3742"/>
 <approved hash="18,29,ebe0b528c422cb44"/>
+<approved hash="18,29,6709b5ae42bd3742"/>
 <approved hash="18,29,788ac3790378b88b"/>
 <approved hash="18,29,be9748af48a9be91"/>
 <approved hash="18,29,c298665da13589d7"/>
@@ -1824,24 +1827,6 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,75a09a6c5bb3b47f"/>
 <approved hash="18,29,2a830b51f4bad568"/>
 <approved hash="18,29,df4bbd2d3680da44"/>
-<approved hash="18,29,5b92f3bf73bfdb92"/>
-<approved hash="18,29,df1850e2b11f1b6d"/>
-<approved hash="18,29,2be0e7e3fc27f3ef"/>
-<approved hash="18,29,923ad032d02a9222"/>
-<approved hash="18,29,23d3bcfca7d9eb39"/>
-<approved hash="18,29,2028f200f25a2072"/>
-<approved hash="18,29,16b4213421161696"/>
-<approved hash="18,29,341a6e8147a65cc6"/>
-<approved hash="18,29,dd1a30b55f90e5e0"/>
-<approved hash="18,29,1e72e4cae4d21e6a"/>
-<approved hash="18,29,9778d8036f9a3ad9"/>
-<approved hash="18,29,6081e201e21e609e"/>
-<approved hash="18,29,0dc276d91fde240e"/>
-<approved hash="18,29,e4d55fe23600ddf8"/>
-<approved hash="18,29,1e6ae212e20a1e72"/>
-<approved hash="18,29,cb18d911d7a4d855"/>
-<approved hash="18,29,404cdae95ae9c04c"/>
-<approved hash="18,29,542bef506f50d42b"/>
 <approved hash="18,29,3d2d5b1c9b1dfd2c"/>
 <approved hash="18,29,b534759400251678"/>
 <approved hash="18,29,962bf023f0119619"/>
