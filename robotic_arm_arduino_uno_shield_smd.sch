@@ -326,14 +326,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="A" x="-2.65" y="0" dx="3.5" dy="1.6" layer="1" roundness="50" rot="R180"/>
 <smd name="K" x="2.65" y="0" dx="3.5" dy="1.6" layer="1" roundness="50" rot="R180"/>
 <text x="2" y="1.5" size="1.27" layer="21" font="vector" ratio="10" align="center">-</text>
-<text x="0.4572" y="0" size="0.6096" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<text x="-0.381" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="0.127" y="-1.8542" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <rectangle x1="-3.75" y1="-0.325" x2="-0.9" y2="0.325" layer="51"/>
 <rectangle x1="0.9" y1="-0.325" x2="3.75" y2="0.325" layer="51"/>
 <wire x1="4.873" y1="3.673" x2="-4.873" y2="3.673" width="0.1" layer="39"/>
 <wire x1="-4.873" y1="3.673" x2="-4.873" y2="-3.673" width="0.1" layer="39"/>
 <wire x1="-4.873" y1="-3.673" x2="4.873" y2="-3.673" width="0.1" layer="39"/>
 <wire x1="4.873" y1="-3.673" x2="4.873" y2="3.673" width="0.1" layer="39"/>
+<wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.4445" y1="-0.762" x2="0.4445" y2="0.762" width="0.127" layer="21" curve="-68.760689"/>
 </package>
 <package name="RESC2012X60_HS">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -775,6 +780,127 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.858" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="39"/>
 <wire x1="6.858" y1="3.81" x2="6.858" y2="-3.81" width="0.127" layer="39"/>
 </package>
+<package name="SPST-PTH-12MM">
+<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
+<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
+<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
+<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
+<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
+<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
+<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="21" curve="-90"/>
+<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
+<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
+<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
+<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
+<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
+<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
+<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
+<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
+<text x="0" y="6.223" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="27"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.127" layer="27"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="27"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.127" layer="27"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="27"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.762" x2="-0.635" y2="0.508" width="0.127" layer="21"/>
+</package>
+<package name="SW_MOMENTARY_SPST-NO_SMD_12V_50MA_5.2MM">
+<wire x1="2.6" y1="1.4" x2="2.6" y2="-1.4" width="0.1" layer="21"/>
+<wire x1="2.6" y1="-1.4" x2="1.4" y2="-2.6" width="0.1" layer="21"/>
+<wire x1="1.4" y1="-2.6" x2="-1.4" y2="-2.6" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="-2.6" x2="-2.6" y2="-1.4" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="-1.4" x2="-2.6" y2="1.4" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="1.4" x2="-1.4" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="2.6" x2="1.4" y2="2.6" width="0.1" layer="21"/>
+<wire x1="1.4" y1="2.6" x2="2.6" y2="1.4" width="0.1" layer="21"/>
+<circle x="0" y="0" radius="1" width="0.2032" layer="21"/>
+<smd name="1" x="-3" y="1.85" dx="0.95" dy="1.7" layer="1" roundness="50" rot="R90"/>
+<smd name="2" x="3" y="1.85" dx="0.95" dy="1.7" layer="1" roundness="50" rot="R90"/>
+<smd name="3" x="-3" y="-1.85" dx="0.95" dy="1.7" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="3" y="-1.85" dx="0.95" dy="1.7" layer="1" roundness="50" rot="R90"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-1.905" y1="0.508" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0.508" x2="-2.159" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-0.127" x2="-1.905" y2="-1.016" width="0.127" layer="21"/>
+<rectangle x1="-3.2" y1="1.6" x2="-2.2" y2="2.1" layer="21"/>
+<rectangle x1="-3.2" y1="-2.1" x2="-2.2" y2="-1.6" layer="21"/>
+<rectangle x1="2.2" y1="1.6" x2="3.2" y2="2.1" layer="21"/>
+<rectangle x1="2.2" y1="-2.1" x2="3.2" y2="-1.6" layer="21"/>
+<wire x1="-4.064" y1="2.794" x2="-4.064" y2="-2.794" width="0.1" layer="39"/>
+<wire x1="-4.064" y1="-2.794" x2="4.064" y2="-2.794" width="0.1" layer="39"/>
+<wire x1="4.064" y1="-2.794" x2="4.064" y2="2.794" width="0.1" layer="39"/>
+<wire x1="4.064" y1="2.794" x2="-4.064" y2="2.794" width="0.1" layer="39"/>
+</package>
+<package name="CONNECTOR_SERVO">
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="0" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<text x="0" y="1.651" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.175" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0.508" size="0.8128" layer="21" font="vector" ratio="10" align="center">VCC</text>
+<text x="2.54" y="0.508" size="0.8128" layer="21" font="vector" ratio="10" align="center">GND</text>
+<text x="-2.54" y="0.508" size="0.8128" layer="21" font="vector" ratio="10" align="center">SIG</text>
+</package>
+<package name="CONNECTOR_SERVO_NO-MARKINGS">
+<wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-4.06" y1="1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="-1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<text x="0" y="1.651" size="0.6096" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="POTENTIOMETER">
+<pad name="S" x="0" y="0" drill="0.8" diameter="1.6"/>
+<pad name="CCW" x="-5.08" y="0" drill="0.8" diameter="1.6"/>
+<pad name="CW" x="5.08" y="0" drill="0.8" diameter="1.6"/>
+<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7" y1="-3" x2="-2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="21"/>
+<wire x1="2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="-3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="-7" y2="3" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3" x2="-2" y2="-9" width="0.127" layer="21"/>
+<wire x1="-2" y1="-9" x2="2" y2="-9" width="0.127" layer="21"/>
+<wire x1="2" y1="-9" x2="2" y2="-3" width="0.127" layer="21"/>
+<text x="-6.858" y="-2.032" size="0.508" layer="21" font="vector" ratio="10" align="top-left">MADE THIS SHIT UP. FIX IT LATER</text>
+</package>
+<package name="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
+<wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="-1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.06" y1="1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="S" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="CCW" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="CW" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
+<text x="0" y="2.667" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR_POLARIZED_ALUM-ELECTROLYTIC">
@@ -942,6 +1068,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="S2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="1.27" y="3.302" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="-3.302" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="SWITCH_MOMENTARY">
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.032" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="SERVO-GENERIC">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="SIG" x="5.08" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="VCC" x="5.08" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="5.08" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-0.508" y="5.334" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+<text x="-0.508" y="-5.334" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="POTENTIOMETER">
+<wire x1="1.27" y1="0" x2="2.54" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.2032" layer="94"/>
+<text x="2.032" y="3.81" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.032" y="2.54" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="CW" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="CCW" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.2032" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.2032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1213,6 +1382,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-5.1KARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-5.1KARCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-075K1L"/>
@@ -1230,6 +1400,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10.7CRCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-10.7CRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710R7L"/>
@@ -1247,6 +1418,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-4.99CRCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-4.99CRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-074R99L"/>
@@ -1282,6 +1454,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-51ARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-51ARCT-ND " constant="no"/>
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0805JR-0751RL" constant="no"/>
@@ -1338,6 +1511,43 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MPN" value="RC0805JR-072K2L" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="2.2KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD-0805_1/8W_1K_5%" package="RESC2012X60_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0805JR-071KL/311-1.0KARCT-ND/731165" constant="no"/>
+<attribute name="DISTPN" value="311-1.0KARCT-ND " constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-071KL " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD-0805_1/8W_2K_5%" package="RESC2012X60_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-2.0KARCT-ND" constant="no"/>
+<attribute name="DISTPN" value="311-2.0KARCT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-072KL" constant="no"/>
+<attribute name="VALUE" value="2KΩ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1423,6 +1633,63 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MPN" value="GRM21A5C2E120JW01D " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="12pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805-1UF-25V-10%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM216R61E105KA12D/490-1700-1-ND/587586" constant="no"/>
+<attribute name="DISTPN" value="490-1700-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM216R61E105KA12D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805_22PF-250V-5%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
+<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="22PF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805-0.75PF-100V-33%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
+<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1732,7 +1999,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" prefix="S" uservalue="yes">
+<deviceset name="SWITCH_SPDT" prefix="S" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
 </gates>
@@ -1765,7 +2032,188 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <connect gate="G$1" pin="S2" pad="P$3"/>
 </connects>
 <technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=%09EG2355-ND" constant="no"/>
+<attribute name="DISTPN" value="EG2355-ND" constant="no"/>
+<attribute name="MFR" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="100SP1T1B4M2QE" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="5A/28V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH_MOMENTARY_SPST" prefix="S" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SWITCH_MOMENTARY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SPST-SMD-50MA-12V_L5.2-W5.2" package="SW_MOMENTARY_SPST-NO_SMD_12V_50MA_5.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/C&amp;K/RS-187R05-DS%20MT_RT.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CKN10361CT-ND" constant="no"/>
+<attribute name="DISTPN" value="CKN10361CT-ND" constant="no"/>
+<attribute name="MFR" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="TACTILE-SW_500mA/12V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SPST-PTH-L12-W12-H7.2" package="SPST-PTH-12MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SERVO" prefix="SERVO" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SERVO-GENERIC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONNECTOR_SERVO">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="SERVO" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HK15298B" package="CONNECTOR_SERVO">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DIST" value="HobbyKing" constant="no"/>
+<attribute name="DISTLINK" value="https://hobbyking.com/en_us/hobbykingtm-coreless-digital-hv-mg-bb-servo-20kg-0-16sec-66g.html?___store=en_us" constant="no"/>
+<attribute name="DISTPN" value="HK15298B" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="HK15298B" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MG90S" package="CONNECTOR_SERVO">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="N/A" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
+<attribute name="DISTPN" value="N/A" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S1012E-03-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="TowerPro" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="MG90S" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="MG90S" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MG90S_NO-MARKINGS" package="CONNECTOR_SERVO_NO-MARKINGS">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.towerpro.com.tw/product/mg90s-3/" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="N/A" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="TowerPro" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="MG90S" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="MG90S" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POTENTIOMETER" prefix="POT" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="GENERIC" package="POTENTIOMETER">
+<connects>
+<connect gate="G$1" pin="CCW" pad="CCW"/>
+<connect gate="G$1" pin="CW" pad="CW"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10K - made up" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO-MARKINGS_VERT-FEMALE" package="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
+<connects>
+<connect gate="G$1" pin="CCW" pad="CCW"/>
+<connect gate="G$1" pin="CW" pad="CW"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bourns.com/docs/Product-Datasheets/PDB18.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=237407307&amp;uq=636398593910533334" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="PDB181-K420K-203B-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Bourns Inc." constant="no"/>
+<attribute name="MFR_CONNECTOR" value="  Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PDB181-K420K-203B" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="20KΩ" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1896,48 +2344,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <wire x1="10.16" y1="0.635" x2="10.16" y2="-0.635" width="0.2032" layer="21"/>
 </package>
-<package name="1X03-VERT-MALE">
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03-VERT-FEMALE">
-<wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.06" y1="-1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-4.06" y1="1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
-</package>
 <package name="1X06-VERT-FEMALE">
 <wire x1="-7.87" y1="1.27" x2="7.87" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="7.87" y1="-1.27" x2="-7.87" y2="-1.27" width="0.2032" layer="21"/>
@@ -1956,6 +2362,31 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <wire x1="7.87" y1="1.27" x2="7.87" y2="-1.27" width="0.2032" layer="21"/>
+</package>
+<package name="1X08-VERT-FEMALE">
+<wire x1="-10.41" y1="1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<pad name="4" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<pad name="8" x="8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<wire x1="-10.41" y1="1.27" x2="10.4775" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.4775" y1="1.27" x2="10.4775" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.4775" y1="-1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2002,20 +2433,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.6096" layer="94"/>
 <pin name="7" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="8" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="1X03">
-<wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<text x="0.762" y="-5.588" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0.762" y="5.588" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2102,640 +2519,28 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="1X03" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="1X03" x="0" y="0"/>
-</gates>
-<devices>
-<device name="VERT-MALE" package="1X03-VERT-MALE">
+<device name="VERT-FEMALE" package="1X08-VERT-FEMALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-03-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC03SAAN" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1x03-VERT-MALE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="VERT-FEMALE" package="1X03-VERT-FEMALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
-<attribute name="DISTPN" value="S7001-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPTC081LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="DISTPN" value="S7006-ND " constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions " constant="no"/>
+<attribute name="MPN" value="PPTC081LFBN-RC " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1x03-VERT-FEMALE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_PTH_6.0MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="0" y="3.302" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.5MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://spec_sheets.e-switch.com/specs/P010338.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="2.25" x2="2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="1.3" y1="2.2" x2="-1.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.3" y1="-2.2" x2="1.3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="0.8" x2="1.8" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="1.8" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="0.8" x2="-2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="-2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="-2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<text x="0" y="2.413" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_12MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-5050)&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.0X3.5MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/1101.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-3" y1="1.1" x2="-3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="3" y1="1.1" x2="3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="3" y1="-1.5" x2="2.75" y2="-1.75" width="0.2032" layer="21" curve="-90"/>
-<wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.2032" layer="21" curve="90"/>
-<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
-<wire x1="-1" y1="0" x2="0.1" y2="0.5" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
-<smd name="1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<smd name="2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.2MM_TALL" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.apem.com/files/apem/brochures/ADTS6-ADTSM-KTSC6.pdf"&gt;Datasheet&lt;/a&gt; (ADTSM63NVTR)&lt;/p&gt;</description>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2032" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.2032" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.2032" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<smd name="A1" x="-3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="A2" x="3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B1" x="-3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B2" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SW016.JPG"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.5" y1="-3.8" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="3.5" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="3.5" x2="3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3.65" y1="3.5" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="2" x2="3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.777" y1="1" x2="-3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="-3.777" y1="-2.127" x2="3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="-2.127" x2="3.777" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="2.127" x2="-2" y2="2.127" width="0.2032" layer="21"/>
-<pad name="ANCHOR1" x="-3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="ANCHOR2" x="3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="1" x="-2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<circle x="2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<circle x="2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="-2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_12MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="-6" y2="5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<smd name="4" x="-6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="2" x="-6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="1" x="6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="3" x="6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_6.0MM_KIT" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2664" y="3.142"/>
-<vertex x="-3.2589" y="3.1445" curve="89.986886"/>
-<vertex x="-4.1326" y="2.286"/>
-<vertex x="-4.1351" y="2.2657" curve="90.00652"/>
-<vertex x="-3.2563" y="1.392"/>
-<vertex x="-3.2487" y="1.3869" curve="90.006616"/>
-<vertex x="-2.3826" y="2.2403"/>
-<vertex x="-2.3775" y="2.2683" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2462" y="2.7026"/>
-<vertex x="-3.2589" y="2.7051" curve="90.026544"/>
-<vertex x="-3.6881" y="2.2733"/>
-<vertex x="-3.6881" y="2.2632" curve="89.974074"/>
-<vertex x="-3.2562" y="1.8213"/>
-<vertex x="-3.2259" y="1.8186" curve="90.051271"/>
-<vertex x="-2.8093" y="2.2658"/>
-<vertex x="-2.8093" y="2.2606" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="3.1395"/>
-<vertex x="3.2486" y="3.142" curve="89.986886"/>
-<vertex x="2.3749" y="2.2835"/>
-<vertex x="2.3724" y="2.2632" curve="90.00652"/>
-<vertex x="3.2512" y="1.3895"/>
-<vertex x="3.2588" y="1.3844" curve="90.006616"/>
-<vertex x="4.1249" y="2.2378"/>
-<vertex x="4.13" y="2.2658" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="2.7001"/>
-<vertex x="3.2486" y="2.7026" curve="90.026544"/>
-<vertex x="2.8194" y="2.2708"/>
-<vertex x="2.8194" y="2.2607" curve="89.974074"/>
-<vertex x="3.2513" y="1.8188"/>
-<vertex x="3.2816" y="1.8161" curve="90.051271"/>
-<vertex x="3.6982" y="2.2633"/>
-<vertex x="3.6982" y="2.2581" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2613" y="-1.3868"/>
-<vertex x="-3.2538" y="-1.3843" curve="89.986886"/>
-<vertex x="-4.1275" y="-2.2428"/>
-<vertex x="-4.13" y="-2.2631" curve="90.00652"/>
-<vertex x="-3.2512" y="-3.1368"/>
-<vertex x="-3.2436" y="-3.1419" curve="90.006616"/>
-<vertex x="-2.3775" y="-2.2885"/>
-<vertex x="-2.3724" y="-2.2605" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2411" y="-1.8262"/>
-<vertex x="-3.2538" y="-1.8237" curve="90.026544"/>
-<vertex x="-3.683" y="-2.2555"/>
-<vertex x="-3.683" y="-2.2656" curve="89.974074"/>
-<vertex x="-3.2511" y="-2.7075"/>
-<vertex x="-3.2208" y="-2.7102" curve="90.051271"/>
-<vertex x="-2.8042" y="-2.263"/>
-<vertex x="-2.8042" y="-2.2682" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="-1.3843"/>
-<vertex x="3.2486" y="-1.3818" curve="89.986886"/>
-<vertex x="2.3749" y="-2.2403"/>
-<vertex x="2.3724" y="-2.2606" curve="90.00652"/>
-<vertex x="3.2512" y="-3.1343"/>
-<vertex x="3.2588" y="-3.1394" curve="90.006616"/>
-<vertex x="4.1249" y="-2.286"/>
-<vertex x="4.13" y="-2.258" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="-1.8237"/>
-<vertex x="3.2486" y="-1.8212" curve="90.026544"/>
-<vertex x="2.8194" y="-2.253"/>
-<vertex x="2.8194" y="-2.2631" curve="89.974074"/>
-<vertex x="3.2513" y="-2.705"/>
-<vertex x="3.2816" y="-2.7077" curve="90.051271"/>
-<vertex x="3.6982" y="-2.2605"/>
-<vertex x="3.6982" y="-2.2657" curve="90.012964"/>
-</polygon>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<hole x="0" y="0.9" drill="0.7"/>
-<hole x="0" y="-0.9" drill="0.7"/>
-<smd name="1" x="-1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<wire x1="-2" y1="1.2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="0.7" y2="-2.1" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-2.1" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.6X2.8MM" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
-<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
-<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
-<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SWITCH-MOMENTARY-2" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOMENTARY-SWITCH-SPST" prefix="S" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;h4&gt;Variants&lt;/h4&gt;
-&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9190"&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/97"&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;
-&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10791"&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11734"&gt;
-SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12993"&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11888"&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13169"&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8229"&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12992"&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13036"&gt;SparkFun Block for Intel® Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-6.0MM" package="TACTILE_SWITCH_PTH_6.0MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value=" SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.5MM" package="TACTILE_SWITCH_SMD_4.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="2 3"/>
-<connect gate="G$1" pin="2" pad="1 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09213"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-12MM" package="TACTILE_SWITCH_PTH_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09185"/>
-<attribute name="SF_SKU" value="COM-09190"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.0X3.5MM" package="TACTILE_SWITCH_SMD_6.0X3.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-00815"/>
-<attribute name="SF_SKU" value="COM-08229"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.2MM-TALL" package="TACTILE_SWITCH_SMD_6.2MM_TALL">
-<connects>
-<connect gate="G$1" pin="1" pad="A2"/>
-<connect gate="G$1" pin="2" pad="B2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11966"/>
-<attribute name="SF_SKU" value="COM-12992"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-RIGHT-ANGLE-KIT" package="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-10672"/>
-<attribute name="SF_SKU" value="COM-10791"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-12MM" package="TACTILE_SWITCH_SMD_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11967"/>
-<attribute name="SF_SKU" value="COM-12993"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-6.0MM-KIT" package="TACTILE_SWITCH_PTH_6.0MM_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097 "/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2MM" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2-REDUNDANT" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-RIGHT-ANGLE" package="TACTILE_SWITCH_SMD_RIGHT_ANGLE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-12265" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.6X2.8MM" package="TACTILE_SWITCH_SMD_4.6X2.8MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-13065"/>
+<attribute name="VALUE" value="1x08-VERT-FEMALE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2782,17 +2587,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="REC_LED" library="MrSwirlyEyes" deviceset="LED" device="_SMD-805_DISCRETE_RED" value="RED"/>
 <part name="PLAY_LED" library="MrSwirlyEyes" deviceset="LED" device="_SMD-805_DISCRETE_GREEN" value="GREEN"/>
 <part name="R0" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
-<part name="R3" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
-<part name="R4" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_10K_5%" value="10KΩ"/>
+<part name="R3" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_2K_5%" value="2KΩ"/>
+<part name="R4" library="MrSwirlyEyes" deviceset="RESISTOR" device="SMD-0805_1/8W_1K_5%" value="1KΩ"/>
 <part name="GND9" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND10" library="MrSwirlyEyes" deviceset="GND" device=""/>
-<part name="GND11" library="MrSwirlyEyes" deviceset="GND" device=""/>
-<part name="GND12" library="MrSwirlyEyes" deviceset="GND" device=""/>
-<part name="GND13" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="GND14" library="MrSwirlyEyes" deviceset="GND" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND16" library="MrSwirlyEyes" deviceset="GND" device=""/>
 <part name="C5" library="MrSwirlyEyes" deviceset="CAP_POLARIZED" device="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" value="100UF/16V"/>
@@ -2813,17 +2612,23 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="NGND3" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="NGND4" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="NGND5" library="MrSwirlyEyes" deviceset="NGND" device=""/>
-<part name="S1" library="MrSwirlyEyes" deviceset="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" device="5A-28V_13L-7W"/>
-<part name="SERVO1" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="SERVO2" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="SERVO3" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="SERVO4" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="POT1" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="POT2" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="POT3" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="POT4" library="connectors" deviceset="1X03" device="VERT-FEMALE" value="1x03-VERT-FEMALE"/>
-<part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-12MM"/>
-<part name="S3" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-12MM"/>
+<part name="S1" library="MrSwirlyEyes" deviceset="SWITCH_SPDT" device="5A-28V_13L-7W" value="5A/28V"/>
+<part name="S2" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2"/>
+<part name="S3" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2"/>
+<part name="SERVO1" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
+<part name="SERVO2" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
+<part name="SERVO3" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
+<part name="SERVO4" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
+<part name="POT4" library="MrSwirlyEyes" deviceset="POTENTIOMETER" device="NO-MARKINGS_VERT-FEMALE" value="20KΩ"/>
+<part name="POT3" library="MrSwirlyEyes" deviceset="POTENTIOMETER" device="NO-MARKINGS_VERT-FEMALE" value="20KΩ"/>
+<part name="POT2" library="MrSwirlyEyes" deviceset="POTENTIOMETER" device="NO-MARKINGS_VERT-FEMALE" value="20KΩ"/>
+<part name="POT1" library="MrSwirlyEyes" deviceset="POTENTIOMETER" device="NO-MARKINGS_VERT-FEMALE" value="20KΩ"/>
+<part name="GND4" library="MrSwirlyEyes" deviceset="GND" device=""/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="GND5" library="MrSwirlyEyes" deviceset="GND" device=""/>
+<part name="GND6" library="MrSwirlyEyes" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2860,9 +2665,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="165.1" y1="-48.26" x2="294.64" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="294.64" y1="-48.26" x2="294.64" y2="-15.24" width="0.1524" layer="97" style="shortdash"/>
 <text x="233.68" y="210.82" size="7.62" layer="97" ratio="20" align="bottom-center">POWER DISTRIBUTION</text>
-<text x="198.12" y="154.94" size="1.27" layer="91" font="vector" ratio="10" align="center-right">820</text>
-<text x="137.16" y="91.44" size="1.27" layer="91" font="vector" ratio="10" rot="R180" align="center-right">330</text>
-<text x="160.02" y="91.44" size="1.27" layer="91" font="vector" ratio="10" rot="R180" align="center-right">220</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="193.04" y="88.9" rot="MR180"/>
@@ -2896,14 +2698,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="R4" gate="G$1" x="152.4" y="78.74" rot="R90"/>
 <instance part="GND9" gate="GND" x="152.4" y="66.04"/>
 <instance part="GND10" gate="GND" x="132.08" y="66.04"/>
-<instance part="GND11" gate="GND" x="190.5" y="-40.64"/>
-<instance part="GND12" gate="GND" x="220.98" y="-40.64"/>
-<instance part="GND13" gate="GND" x="251.46" y="-40.64"/>
-<instance part="GND14" gate="GND" x="281.94" y="-40.64"/>
-<instance part="SUPPLY10" gate="G$1" x="190.5" y="-25.4"/>
-<instance part="SUPPLY11" gate="G$1" x="220.98" y="-25.4"/>
-<instance part="SUPPLY12" gate="G$1" x="251.46" y="-25.4"/>
-<instance part="SUPPLY13" gate="G$1" x="281.94" y="-25.4"/>
+<instance part="GND14" gate="GND" x="266.7" y="-40.64"/>
+<instance part="SUPPLY13" gate="G$1" x="266.7" y="-22.86"/>
 <instance part="GND16" gate="GND" x="157.48" y="157.48"/>
 <instance part="C5" gate="G$1" x="302.26" y="187.96"/>
 <instance part="C6" gate="G$1" x="302.26" y="152.4"/>
@@ -2924,16 +2720,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="NGND4" gate="G$1" x="251.46" y="7.62"/>
 <instance part="NGND5" gate="G$1" x="281.94" y="7.62"/>
 <instance part="S1" gate="G$1" x="190.5" y="175.26"/>
-<instance part="SERVO1" gate="G$1" x="172.72" y="17.78"/>
-<instance part="SERVO2" gate="G$1" x="203.2" y="17.78"/>
-<instance part="SERVO3" gate="G$1" x="233.68" y="17.78"/>
-<instance part="SERVO4" gate="G$1" x="264.16" y="17.78"/>
-<instance part="POT1" gate="G$1" x="172.72" y="-30.48"/>
-<instance part="POT2" gate="G$1" x="203.2" y="-30.48"/>
-<instance part="POT3" gate="G$1" x="233.68" y="-30.48"/>
-<instance part="POT4" gate="G$1" x="264.16" y="-30.48"/>
 <instance part="S2" gate="G$1" x="297.18" y="91.44" rot="R270"/>
 <instance part="S3" gate="G$1" x="327.66" y="91.44" rot="R90"/>
+<instance part="SERVO1" gate="G$1" x="175.26" y="17.78"/>
+<instance part="SERVO2" gate="G$1" x="205.74" y="17.78"/>
+<instance part="SERVO3" gate="G$1" x="236.22" y="17.78"/>
+<instance part="SERVO4" gate="G$1" x="266.7" y="17.78"/>
+<instance part="POT4" gate="G$1" x="266.7" y="-30.48"/>
+<instance part="POT3" gate="G$1" x="236.22" y="-30.48"/>
+<instance part="POT2" gate="G$1" x="205.74" y="-30.48"/>
+<instance part="POT1" gate="G$1" x="175.26" y="-30.48"/>
+<instance part="GND4" gate="GND" x="175.26" y="-40.64"/>
+<instance part="SUPPLY17" gate="G$1" x="175.26" y="-22.86"/>
+<instance part="SUPPLY18" gate="G$1" x="205.74" y="-22.86"/>
+<instance part="GND5" gate="GND" x="205.74" y="-40.64"/>
+<instance part="GND6" gate="GND" x="236.22" y="-40.64"/>
+<instance part="SUPPLY19" gate="G$1" x="236.22" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -3017,28 +2819,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="152.4" y1="73.66" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="-33.02" x2="190.5" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-33.02" x2="190.5" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="GND" pin="GND"/>
-<pinref part="POT1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="210.82" y1="-33.02" x2="220.98" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-33.02" x2="220.98" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="GND12" gate="GND" pin="GND"/>
-<pinref part="POT2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="251.46" y1="-38.1" x2="251.46" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-33.02" x2="241.3" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="GND" pin="GND"/>
-<pinref part="POT3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="271.78" y1="-33.02" x2="281.94" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="-33.02" x2="281.94" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-35.56" x2="266.7" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="GND" pin="GND"/>
-<pinref part="POT4" gate="G$1" pin="1"/>
+<pinref part="POT4" gate="G$1" pin="CW"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="GND" pin="GND"/>
@@ -3049,6 +2832,21 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="157.48" y="162.56"/>
 <pinref part="J1" gate="G$1" pin="GND@2"/>
 <pinref part="SUPPLY14" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="POT1" gate="G$1" pin="CW"/>
+<wire x1="175.26" y1="-35.56" x2="175.26" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="POT2" gate="G$1" pin="CW"/>
+<pinref part="GND5" gate="GND" pin="GND"/>
+<wire x1="205.74" y1="-38.1" x2="205.74" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="POT3" gate="G$1" pin="CW"/>
+<pinref part="GND6" gate="GND" pin="GND"/>
+<wire x1="236.22" y1="-38.1" x2="236.22" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -3105,9 +2903,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="254" y="73.66" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="20.32" x2="271.78" y2="20.32" width="0.1524" layer="91"/>
-<label x="274.32" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="SERVO4" gate="G$1" pin="3"/>
+<pinref part="SERVO4" gate="G$1" pin="SIG"/>
+<wire x1="274.32" y1="17.78" x2="271.78" y2="17.78" width="0.1524" layer="91"/>
+<label x="274.32" y="17.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -3149,9 +2947,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="254" y="91.44" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
-<label x="243.84" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="SERVO3" gate="G$1" pin="3"/>
+<pinref part="SERVO3" gate="G$1" pin="SIG"/>
+<wire x1="243.84" y1="17.78" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
+<label x="243.84" y="17.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -3161,9 +2959,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="254" y="93.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
-<label x="213.36" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="SERVO2" gate="G$1" pin="3"/>
+<pinref part="SERVO2" gate="G$1" pin="SIG"/>
+<wire x1="213.36" y1="17.78" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
+<label x="213.36" y="17.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -3180,9 +2978,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="254" y="99.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
-<label x="182.88" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="SERVO1" gate="G$1" pin="3"/>
+<pinref part="SERVO1" gate="G$1" pin="SIG"/>
+<wire x1="180.34" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="182.88" y="17.78" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -3213,9 +3011,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="203.2" y="58.42" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="-27.94" x2="180.34" y2="-27.94" width="0.1524" layer="91"/>
-<label x="182.88" y="-27.94" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="POT1" gate="G$1" pin="3"/>
+<wire x1="182.88" y1="-30.48" x2="180.34" y2="-30.48" width="0.1524" layer="91"/>
+<label x="182.88" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="POT1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -3225,9 +3023,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="203.2" y="60.96" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="-27.94" x2="210.82" y2="-27.94" width="0.1524" layer="91"/>
-<label x="213.36" y="-27.94" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="POT2" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="-30.48" x2="210.82" y2="-30.48" width="0.1524" layer="91"/>
+<label x="213.36" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="POT2" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -3237,9 +3035,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="203.2" y="63.5" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="-27.94" x2="241.3" y2="-27.94" width="0.1524" layer="91"/>
-<label x="243.84" y="-27.94" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="POT3" gate="G$1" pin="3"/>
+<wire x1="243.84" y1="-30.48" x2="241.3" y2="-30.48" width="0.1524" layer="91"/>
+<label x="243.84" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="POT3" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -3249,9 +3047,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="203.2" y="66.04" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="-27.94" x2="271.78" y2="-27.94" width="0.1524" layer="91"/>
-<label x="274.32" y="-27.94" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="POT4" gate="G$1" pin="3"/>
+<label x="274.32" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="POT4" gate="G$1" pin="S"/>
+<wire x1="271.78" y1="-30.48" x2="274.32" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -3316,28 +3114,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="180.34" y1="-30.48" x2="190.5" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-30.48" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="5V"/>
-<pinref part="POT1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="220.98" y1="-25.4" x2="220.98" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-30.48" x2="210.82" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<pinref part="POT2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="241.3" y1="-30.48" x2="251.46" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="-30.48" x2="251.46" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
-<pinref part="POT3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="271.78" y1="-30.48" x2="281.94" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="-30.48" x2="281.94" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<pinref part="POT4" gate="G$1" pin="2"/>
+<pinref part="POT4" gate="G$1" pin="CCW"/>
+<wire x1="266.7" y1="-22.86" x2="266.7" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="5V" pin="5V"/>
@@ -3354,6 +3133,21 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY8" gate="5V" pin="5V"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="101.6" x2="297.18" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="POT1" gate="G$1" pin="CCW"/>
+<wire x1="175.26" y1="-25.4" x2="175.26" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="POT2" gate="G$1" pin="CCW"/>
+<pinref part="SUPPLY18" gate="G$1" pin="5V"/>
+<wire x1="205.74" y1="-22.86" x2="205.74" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="POT3" gate="G$1" pin="CCW"/>
+<pinref part="SUPPLY19" gate="G$1" pin="5V"/>
+<wire x1="236.22" y1="-22.86" x2="236.22" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3391,16 +3185,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="267.97" y1="203.2" x2="276.86" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="17.78" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="17.78" x2="190.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="20.32" x2="190.5" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$2" pin="VCC_1"/>
-<pinref part="SERVO1" gate="G$1" pin="2"/>
+<pinref part="SERVO1" gate="G$1" pin="VCC"/>
+<wire x1="180.34" y1="20.32" x2="190.5" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="17.78" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$2" pin="VCC_1"/>
-<wire x1="220.98" y1="17.78" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SERVO2" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="20.32" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SERVO2" gate="G$1" pin="VCC"/>
+<wire x1="210.82" y1="20.32" x2="220.98" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_2" class="0">
@@ -3425,15 +3219,15 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC_2"/>
-<wire x1="251.46" y1="22.86" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="17.78" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="SERVO3" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="22.86" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SERVO3" gate="G$1" pin="VCC"/>
+<wire x1="241.3" y1="20.32" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="17.78" x2="281.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="17.78" x2="281.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="20.32" x2="281.94" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC_2"/>
-<pinref part="SERVO4" gate="G$1" pin="2"/>
+<pinref part="SERVO4" gate="G$1" pin="VCC"/>
+<wire x1="271.78" y1="20.32" x2="281.94" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+" class="0">
@@ -3489,25 +3283,25 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="190.5" y1="10.16" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="15.24" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="NGND2" gate="G$1" pin="NGND"/>
-<pinref part="SERVO1" gate="G$1" pin="1"/>
+<pinref part="SERVO1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="10.16" x2="220.98" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="15.24" x2="220.98" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="NGND3" gate="G$1" pin="NGND"/>
-<pinref part="SERVO2" gate="G$1" pin="1"/>
+<pinref part="SERVO2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="10.16" x2="251.46" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="15.24" x2="251.46" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="NGND4" gate="G$1" pin="NGND"/>
-<pinref part="SERVO3" gate="G$1" pin="1"/>
+<pinref part="SERVO3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="281.94" y1="10.16" x2="281.94" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="15.24" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="NGND5" gate="G$1" pin="NGND"/>
-<pinref part="SERVO4" gate="G$1" pin="1"/>
+<pinref part="SERVO4" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
@@ -3526,15 +3320,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <approved hash="106,1,200.66,96.52,RESET,,,,,"/>
 <approved hash="106,1,256.54,106.68,RX,,,,,"/>
 <approved hash="106,1,256.54,104.14,TX,,,,,"/>
-<approved hash="113,1,191.77,175.26,S1,,,,,"/>
+<approved hash="113,1,297.595,91.44,S2,,,,,"/>
+<approved hash="113,1,327.245,91.44,S3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-</compatibility>
 </eagle>
