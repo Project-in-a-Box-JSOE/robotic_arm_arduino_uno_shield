@@ -1184,11 +1184,27 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="TESTED" value="NO" x="41.91" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="5A/28V" x="41.91" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S2" library="MrSwirlyEyes" package="SPST-PTH-12MM" value="" x="-1.27" y="7.874" smashed="yes" rot="R90">
+<element name="S2" library="MrSwirlyEyes" package="SPST-PTH-12MM" value="50mA/12V" x="-1.27" y="7.874" smashed="yes" rot="R90">
+<attribute name="CREATOR" value="MrSwirlyEyes" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Sparkfun" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="COM-10302" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-6.223" y="7.874" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" value="50mA/12V" x="-1.27" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S3" library="MrSwirlyEyes" package="SPST-PTH-12MM" value="" x="-1.27" y="40.64" smashed="yes" rot="R270">
+<element name="S3" library="MrSwirlyEyes" package="SPST-PTH-12MM" value="50mA/12V" x="-1.27" y="40.64" smashed="yes" rot="R270">
+<attribute name="CREATOR" value="MrSwirlyEyes" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Sparkfun" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="COM-10302" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-6.477" y="40.64" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" value="50mA/12V" x="-1.27" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SERVO1" library="MrSwirlyEyes" package="CONNECTOR_SERVO_NO-MARKINGS" value="MG90S" x="34.29" y="45.212" smashed="yes" rot="R270">
 <attribute name="CREATOR" value="MrSwirlyEyes" x="34.29" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>

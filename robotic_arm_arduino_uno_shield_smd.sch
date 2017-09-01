@@ -2077,7 +2077,16 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" constant="no"/>
+<attribute name="DIST" value="Sparkfun" constant="no"/>
+<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" constant="no"/>
+<attribute name="DISTPN" value="COM-10302" constant="no"/>
+<attribute name="MFR" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE" value="50mA/12V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2613,8 +2622,8 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <part name="NGND4" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="NGND5" library="MrSwirlyEyes" deviceset="NGND" device=""/>
 <part name="S1" library="MrSwirlyEyes" deviceset="SWITCH_SPDT" device="5A-28V_13L-7W" value="5A/28V"/>
-<part name="S2" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2"/>
-<part name="S3" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2"/>
+<part name="S2" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2" value="50mA/12V"/>
+<part name="S3" library="MrSwirlyEyes" deviceset="SWITCH_MOMENTARY_SPST" device="SPST-PTH-L12-W12-H7.2" value="50mA/12V"/>
 <part name="SERVO1" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
 <part name="SERVO2" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
 <part name="SERVO3" library="MrSwirlyEyes" deviceset="SERVO" device="MG90S_NO-MARKINGS" value="MG90S"/>
