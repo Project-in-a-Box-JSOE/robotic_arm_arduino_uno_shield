@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -267,15 +267,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <rectangle x1="-3.75" y1="-0.325" x2="-0.9" y2="0.325" layer="51"/>
 <rectangle x1="0.9" y1="-0.325" x2="3.75" y2="0.325" layer="51"/>
-<wire x1="4.873" y1="3.673" x2="-4.873" y2="3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="3.673" x2="-4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="-3.673" x2="4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="4.873" y1="-3.673" x2="4.873" y2="3.673" width="0.1" layer="39"/>
 <wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
 <wire x1="0.4445" y1="-0.762" x2="0.4445" y2="0.762" width="0.127" layer="21" curve="-68.760689"/>
+<wire x1="3.556" y1="-3.556" x2="-2.286" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="-3.556" x2="-4.572" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-4.572" y1="-1.27" x2="-4.572" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-4.572" y1="1.27" x2="-2.286" y2="3.556" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="3.556" x2="3.556" y2="3.556" width="0.127" layer="39"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="2.286" width="0.127" layer="39"/>
+<wire x1="3.556" y1="2.286" x2="4.572" y2="1.27" width="0.127" layer="39"/>
+<wire x1="4.572" y1="1.27" x2="4.572" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="4.572" y1="-1.27" x2="3.556" y2="-2.286" width="0.127" layer="39"/>
+<wire x1="3.556" y1="-2.286" x2="3.556" y2="-3.556" width="0.127" layer="39"/>
 </package>
 <package name="RESISTOR_SMD-805">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -688,10 +694,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.5" y1="-3.5" x2="6.5" y2="3.5" width="0.1" layer="21"/>
 <wire x1="6.5" y1="3.5" x2="-6.5" y2="3.5" width="0.1" layer="21"/>
 <wire x1="-6.5" y1="3.5" x2="-6.5" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="6.858" y1="-3.81" x2="-6.858" y2="-3.81" width="0.127" layer="39"/>
-<wire x1="-6.858" y1="-3.81" x2="-6.858" y2="3.81" width="0.127" layer="39"/>
-<wire x1="-6.858" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="39"/>
-<wire x1="6.858" y1="3.81" x2="6.858" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="6.604" y1="-3.556" x2="-6.604" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="-6.604" y1="-3.556" x2="-6.604" y2="3.556" width="0.127" layer="39"/>
+<wire x1="-6.604" y1="3.556" x2="6.604" y2="3.556" width="0.127" layer="39"/>
+<wire x1="6.604" y1="3.556" x2="6.604" y2="-3.556" width="0.127" layer="39"/>
 </package>
 <package name="SPST-PTH-12MM">
 <wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>

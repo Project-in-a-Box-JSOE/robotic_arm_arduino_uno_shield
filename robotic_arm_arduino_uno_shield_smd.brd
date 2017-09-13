@@ -33,13 +33,13 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -199,8 +199,8 @@
 <text x="7.112" y="49.276" size="0.6096" layer="21" font="vector" ratio="10" rot="R270">D13</text>
 <text x="44.323" y="13.589" size="0.6096" layer="21" font="vector" ratio="10" align="center">7.4V-12V</text>
 <text x="42.164" y="30.353" size="0.6096" layer="21" font="vector" ratio="10" rot="R90" align="center">7.4V-12V</text>
-<text x="27.051" y="37.973" size="1.778" layer="21" font="vector" ratio="20" rot="SR270">Robotic Arm Shield</text>
-<text x="25.4" y="37.846" size="0.8128" layer="21" font="vector" ratio="10" rot="SR270">Rev 3</text>
+<text x="10.287" y="33.655" size="1.016" layer="21" font="vector" ratio="20" rot="SR270">Robotic Arm Shield</text>
+<text x="12.446" y="32.004" size="0.8128" layer="21" font="vector" ratio="10" rot="SR270">Rev 3</text>
 <text x="27.94" y="10.922" size="1.778" layer="22" font="vector" ratio="20" rot="MR0">Robotic Arm Shield</text>
 <text x="27.94" y="10.287" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0" align="top-left">Rev 3
 Designed by: Buu Truong
@@ -239,8 +239,8 @@ CADed by: MrSwirlyEyes</text>
 <text x="24.638" y="47.752" size="0.8128" layer="21" rot="R90" align="center">SIG</text>
 <text x="24.638" y="45.212" size="0.8128" layer="21" rot="R90" align="center">5V</text>
 <text x="24.638" y="42.672" size="0.8128" layer="21" rot="R90" align="center">GND</text>
-<text x="6.35" y="7.62" size="1.778" layer="21" font="vector" ratio="10" rot="SR270" align="center">RECORD</text>
-<text x="6.35" y="40.64" size="1.778" layer="21" font="vector" ratio="10" rot="SR270" align="center">PLAY</text>
+<text x="13.462" y="8.89" size="1.778" layer="21" font="vector" ratio="10" rot="SR270" align="center">RECORD</text>
+<text x="13.462" y="44.45" size="1.778" layer="21" font="vector" ratio="10" rot="SR270" align="center">PLAY</text>
 </plain>
 <libraries>
 <library name="MrSwirlyEyes">
@@ -261,15 +261,21 @@ CADed by: MrSwirlyEyes</text>
 <text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <rectangle x1="-3.75" y1="-0.325" x2="-0.9" y2="0.325" layer="51"/>
 <rectangle x1="0.9" y1="-0.325" x2="3.75" y2="0.325" layer="51"/>
-<wire x1="4.873" y1="3.673" x2="-4.873" y2="3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="3.673" x2="-4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="-3.673" x2="4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="4.873" y1="-3.673" x2="4.873" y2="3.673" width="0.1" layer="39"/>
 <wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
 <wire x1="0.4445" y1="-0.762" x2="0.4445" y2="0.762" width="0.127" layer="21" curve="-68.760689"/>
+<wire x1="3.556" y1="-3.556" x2="-2.286" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="-3.556" x2="-4.572" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-4.572" y1="-1.27" x2="-4.572" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-4.572" y1="1.27" x2="-2.286" y2="3.556" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="3.556" x2="3.556" y2="3.556" width="0.127" layer="39"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="2.286" width="0.127" layer="39"/>
+<wire x1="3.556" y1="2.286" x2="4.572" y2="1.27" width="0.127" layer="39"/>
+<wire x1="4.572" y1="1.27" x2="4.572" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="4.572" y1="-1.27" x2="3.556" y2="-2.286" width="0.127" layer="39"/>
+<wire x1="3.556" y1="-2.286" x2="3.556" y2="-3.556" width="0.127" layer="39"/>
 </package>
 <package name="RESISTOR_SMD-805">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -444,10 +450,10 @@ CADed by: MrSwirlyEyes</text>
 <wire x1="6.5" y1="-3.5" x2="6.5" y2="3.5" width="0.1" layer="21"/>
 <wire x1="6.5" y1="3.5" x2="-6.5" y2="3.5" width="0.1" layer="21"/>
 <wire x1="-6.5" y1="3.5" x2="-6.5" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="6.858" y1="-3.81" x2="-6.858" y2="-3.81" width="0.127" layer="39"/>
-<wire x1="-6.858" y1="-3.81" x2="-6.858" y2="3.81" width="0.127" layer="39"/>
-<wire x1="-6.858" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="39"/>
-<wire x1="6.858" y1="3.81" x2="6.858" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="6.604" y1="-3.556" x2="-6.604" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="-6.604" y1="-3.556" x2="-6.604" y2="3.556" width="0.127" layer="39"/>
+<wire x1="-6.604" y1="3.556" x2="6.604" y2="3.556" width="0.127" layer="39"/>
+<wire x1="6.604" y1="3.556" x2="6.604" y2="-3.556" width="0.127" layer="39"/>
 </package>
 <package name="SPST-PTH-12MM">
 <wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
@@ -976,7 +982,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DISTPN" value="160-1579-1-ND" x="42.672" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Lite-On Inc." x="42.672" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="LTST-C170TBKT" x="42.672" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.672" y="13.9446" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<attribute name="NAME" x="41.4274" y="11.43" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="TESTED" value="NO" x="42.672" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="BLUE" x="42.672" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="42.672" y="11.049" size="0.6096" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
@@ -1014,7 +1020,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DISTPN" value="311-10KARCT-ND" x="42.672" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="42.672" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="42.672" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="42.672" y="4.191" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="41.021" y="6.604" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="TESTED" value="YES" x="42.672" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.672" y="6.35" size="0.6096" layer="27" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" value="10KΩ" x="42.672" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1090,7 +1096,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DISTPN" value="COM-10302" x="6.096" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="" x="6.096" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="6.096" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.143" y="10.414" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="6.223" y="10.414" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" value="50mA/12V" x="6.096" y="10.414" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S3" library="MrSwirlyEyes" package="SPST-PTH-12MM" value="50mA/12V" x="6.096" y="41.656" smashed="yes" rot="R270">
@@ -1118,7 +1124,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" x="34.29" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MG90S" x="34.29" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" x="34.29" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.068" y="45.212" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="33.782" y="38.862" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="TESTED" value="NO" x="34.29" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SERVO2" library="MrSwirlyEyes" package="CONNECTOR_SERVO_NO-MARKINGS" value="MG90S" x="31.75" y="45.212" smashed="yes" rot="R270">
@@ -1135,7 +1141,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" x="31.75" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MG90S" x="31.75" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" x="31.75" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.528" y="45.212" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="31.242" y="38.862" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="TESTED" value="NO" x="31.75" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SERVO3" library="MrSwirlyEyes" package="CONNECTOR_SERVO_NO-MARKINGS" value="MG90S" x="29.21" y="45.212" smashed="yes" rot="R270">
@@ -1152,7 +1158,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" x="29.21" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MG90S" x="29.21" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" x="29.21" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.432" y="45.212" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="28.702" y="38.862" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="TESTED" value="NO" x="29.21" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SERVO4" library="MrSwirlyEyes" package="CONNECTOR_SERVO_NO-MARKINGS" value="MG90S" x="26.67" y="45.212" smashed="yes" rot="R270">
@@ -1169,7 +1175,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" x="26.67" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MG90S" x="26.67" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" x="26.67" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.892" y="45.212" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="26.162" y="38.862" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="TESTED" value="NO" x="26.67" y="45.212" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="POT4" library="MrSwirlyEyes" package="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER" value="20KΩ" x="39.37" y="8.128" smashed="yes" rot="R90">
@@ -1270,25 +1276,25 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="GRM21BR61E106KA73L" x="48.514" y="8.382" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TESTED" value="NO" x="48.514" y="8.382" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C97" library="MrSwirlyEyes" package="CAP_CER_SMD-805" value="10uF/25V" x="28.702" y="29.718">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5523-1-ND" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-5523-1-ND" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR61E106KA73L" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
-<attribute name="TESTED" value="NO" x="-15.748" y="58.928" size="1.778" layer="27" display="off"/>
+<element name="C97" library="MrSwirlyEyes" package="CAP_CER_SMD-805" value="10uF/25V" x="28.448" y="29.718">
+<attribute name="CREATOR" value="MrSwirlyEyes" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5523-1-ND" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="490-5523-1-ND" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM21BR61E106KA73L" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
+<attribute name="TESTED" value="NO" x="-16.002" y="58.928" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C98" library="MrSwirlyEyes" package="CAP_CER_SMD-805" value="0.1uF/50V" x="28.702" y="32.004">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1666-1-ND" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-1666-1-ND" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
-<attribute name="TESTED" value="NO" x="-10.668" y="61.214" size="1.778" layer="27" display="off"/>
+<element name="C98" library="MrSwirlyEyes" package="CAP_CER_SMD-805" value="0.1uF/50V" x="28.448" y="32.004">
+<attribute name="CREATOR" value="MrSwirlyEyes" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1666-1-ND" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="490-1666-1-ND" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
+<attribute name="TESTED" value="NO" x="-10.922" y="61.214" size="1.778" layer="27" display="off"/>
 </element>
 <element name="VREG3" library="MrSwirlyEyes" package="TO-263-5" value="5A/5V" x="19.558" y="22.352" rot="R180">
 <attribute name="CREATOR" value="MrSwirlyEyes" x="46.228" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1736,8 +1742,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,2cfcf224f1c92f11"/>
 <approved hash="18,29,4528bb618be49ed5"/>
+<approved hash="18,29,2cfcf224f1c92f11"/>
 <approved hash="18,29,33c7e373b303d0ca"/>
 <approved hash="18,29,333254789ea03111"/>
 <approved hash="18,29,c5083d322a8fc73d"/>
@@ -1745,34 +1751,6 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,6843af34af5c5fc5"/>
 <approved hash="18,29,a71f50996c920516"/>
 <approved hash="18,29,8dffdfd055959444"/>
-<approved hash="18,29,82887724751880b4"/>
-<approved hash="18,29,02fe9606907c0484"/>
-<approved hash="18,29,3ef6920e9c65309d"/>
-<approved hash="18,29,7258f08cef1d6dc9"/>
-<approved hash="18,29,141d79ed47802a70"/>
-<approved hash="18,29,af8bf279342bdc4b"/>
-<approved hash="18,29,c2ae7ba6472b2e7b"/>
-<approved hash="18,29,26c02a54af9b96d8"/>
-<approved hash="18,29,9cd93050a811c17d"/>
-<approved hash="18,29,f90355d48c357b8c"/>
-<approved hash="18,29,53996a5d6baa526e"/>
-<approved hash="18,29,21a3f0bc66744761"/>
-<approved hash="18,29,4507e1b78006b7be"/>
-<approved hash="18,29,57e41c37903973e0"/>
-<approved hash="18,29,4507e61370fba000"/>
-<approved hash="18,29,503b7653fe12b366"/>
-<approved hash="18,29,4db96ba3e466b764"/>
-<approved hash="18,29,61fda8a0144da557"/>
-<approved hash="18,29,9c8deb01e81d9f91"/>
-<approved hash="18,29,8359e4d5e77580f9"/>
-<approved hash="18,29,530ba087a71b5497"/>
-<approved hash="18,29,dbf3b593b7d2d9b2"/>
-<approved hash="18,29,bf7a64f664f4bf78"/>
-<approved hash="18,29,8c18bb94b8768ffa"/>
-<approved hash="18,29,860b2b44ad93dd77"/>
-<approved hash="18,29,f36d9524d49f9461"/>
-<approved hash="18,29,92fef76ef77792e7"/>
-<approved hash="18,29,f43fe05be1a3f5c7"/>
 <approved hash="18,29,73e743ad8455631c"/>
 <approved hash="18,29,84b11e4911cb8b33"/>
 <approved hash="18,29,e67d9920862d6882"/>
@@ -1783,71 +1761,36 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,823f3448f449423e"/>
 <approved hash="18,29,e27b262ae6c92298"/>
 <approved hash="18,29,bb3093a61ee0ce91"/>
-<approved hash="18,29,6cfbcb8ee1330649"/>
 <approved hash="18,29,e062e4965900a2fd"/>
 <approved hash="18,29,1ecc2404245a1e92"/>
-<approved hash="18,29,616e84bfd44965ae"/>
 <approved hash="18,29,61571835205d1052"/>
+<approved hash="18,29,616e84bfd44965ae"/>
 <approved hash="18,29,b5ce7898afccc470"/>
-<approved hash="18,29,cf5fd71acef3e0db"/>
-<approved hash="18,29,487282c0540afc2d"/>
-<approved hash="18,29,e149a049a9d4d369"/>
-<approved hash="18,29,4df2b040448af5ad"/>
-<approved hash="18,29,2972bd5a0eb03815"/>
-<approved hash="18,29,82ffb8c406ca3f96"/>
-<approved hash="18,29,ce6f41e9c85c52c9"/>
-<approved hash="18,29,2ec787a27932ee55"/>
-<approved hash="18,29,204778a27332ebd5"/>
-<approved hash="18,29,4ecba993911eb44d"/>
+<approved hash="18,29,6cfbcb8ee1330649"/>
 <approved hash="18,29,1044e81528f2d0a3"/>
 <approved hash="18,29,2084045e6e029c15"/>
-<approved hash="18,29,c10a0f7cb625b07b"/>
-<approved hash="18,29,50024bd2fb822eab"/>
-<approved hash="18,29,cd5182625c9b90d9"/>
-<approved hash="18,29,a637678776b96a15"/>
-<approved hash="18,29,f4e44e427d594679"/>
-<approved hash="18,29,1f279754f02caccb"/>
-<approved hash="18,29,14fa89f726bab8d0"/>
-<approved hash="18,29,1423216aa5d4cb01"/>
-<approved hash="18,29,97424715dabd75e3"/>
-<approved hash="18,29,c0466a320d1f1b78"/>
-<approved hash="18,29,227707d7150d8f7c"/>
-<approved hash="18,29,4bc0ec34e7a10646"/>
-<approved hash="18,29,c5b8bdf209507516"/>
-<approved hash="18,29,ec1d771cc02a8e34"/>
-<approved hash="18,29,7f7c177b6f203286"/>
-<approved hash="18,29,a507f01d58f86c43"/>
-<approved hash="18,29,17e481d3839a17cd"/>
-<approved hash="18,29,563a01b6009c5710"/>
 <approved hash="18,29,4b35e0eb3b3c68d9"/>
-<approved hash="18,29,db6fbd6a04523b97"/>
-<approved hash="18,29,d7439136c4a9f721"/>
-<approved hash="18,29,8f1a0c960a148998"/>
-<approved hash="18,29,eb0904850584ea08"/>
-<approved hash="18,29,9814ef98eff2987e"/>
-<approved hash="18,29,131b3713f50304ba"/>
-<approved hash="18,29,f2009f909ebaf32a"/>
 <approved hash="18,29,3e32003200563e56"/>
 <approved hash="18,29,950ae0d0adcdc6b7"/>
 <approved hash="18,29,5c0bf7f101ae526f"/>
 <approved hash="18,29,9a958e913f45ee79"/>
 <approved hash="18,29,98ede66de6099889"/>
 <approved hash="18,29,1ffd2c31e1045855"/>
-<approved hash="18,29,f63f1037101ef616"/>
 <approved hash="18,29,a72cf204f23ba713"/>
 <approved hash="18,29,e0cbb7e29e2019c0"/>
-<approved hash="18,29,4d2c9dc11e851282"/>
+<approved hash="18,29,f63f1037101ef616"/>
 <approved hash="18,29,6dc0e468e5b26c1a"/>
+<approved hash="18,29,4d2c9dc11e851282"/>
 <approved hash="18,29,1921af2882346446"/>
 <approved hash="18,29,bbc80d022c96b7a8"/>
-<approved hash="18,29,e2cb72fa53f8f200"/>
 <approved hash="18,29,de71d8d8246dee81"/>
+<approved hash="18,29,e2cb72fa53f8f200"/>
 <approved hash="18,29,51ef6417643f51c7"/>
-<approved hash="18,29,652ce204e23a6512"/>
-<approved hash="18,29,32aa5bdda2400b2f"/>
 <approved hash="18,29,323f1c371c1f3217"/>
-<approved hash="18,29,ecc991e06e23e5c0"/>
+<approved hash="18,29,32aa5bdda2400b2f"/>
 <approved hash="18,29,fc141629d4be3373"/>
+<approved hash="18,29,652ce204e23a6512"/>
+<approved hash="18,29,ecc991e06e23e5c0"/>
 <approved hash="18,29,63c0e468e5b2621a"/>
 <approved hash="18,29,3c5f87a146cedef1"/>
 <approved hash="18,29,e6cb6efa17f8ee00"/>
@@ -1856,20 +1799,20 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,6128be00befa61d2"/>
 <approved hash="18,29,3216223624a60216"/>
 <approved hash="18,29,33fc4004401633ee"/>
-<approved hash="18,29,9e3e243624249e2c"/>
+<approved hash="18,29,212cd204d23a2112"/>
+<approved hash="18,29,423f0037001f4217"/>
+<approved hash="18,29,a5c224143830f69e"/>
+<approved hash="18,29,e0ca35e35e20d9c0"/>
+<approved hash="18,29,53c0e068e1b2521a"/>
+<approved hash="18,29,eecba6fabff82601"/>
+<approved hash="18,29,227118d8c26df081"/>
+<approved hash="18,29,d7ef3017303ed7c6"/>
 <approved hash="18,29,c9e3a6fab5e53135"/>
+<approved hash="18,29,9e3e243624249e2c"/>
 <approved hash="18,29,d67cd263f1201e68"/>
 <approved hash="18,29,5b64cce4cc0a5b8a"/>
 <approved hash="18,29,47cbfd2dfd746093"/>
 <approved hash="18,29,db3d96140051ed03"/>
-<approved hash="18,29,e0ca35e35e20d9c0"/>
-<approved hash="18,29,423f0037001f4217"/>
-<approved hash="18,29,a5c224143830f69e"/>
-<approved hash="18,29,212cd204d23a2112"/>
-<approved hash="18,29,53c0e068e1b2521a"/>
-<approved hash="18,29,227118d8c26df081"/>
-<approved hash="18,29,eecba6fabff82601"/>
-<approved hash="18,29,d7ef3017303ed7c6"/>
 <approved hash="18,29,247d626271205c68"/>
 <approved hash="18,29,8be226fb05e5c335"/>
 <approved hash="18,29,1e3e043604241e2c"/>
@@ -1883,43 +1826,43 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,8bee141614058bfd"/>
 <approved hash="18,30,51a81e6ac051e66f"/>
 <approved hash="18,30,065bc1a02e680662"/>
-<approved hash="18,30,e3f83270325be3d3"/>
 <approved hash="18,30,c25271f2d1fff264"/>
 <approved hash="18,30,11fa0442045911e1"/>
+<approved hash="18,30,e3f83270325be3d3"/>
 <approved hash="18,30,a71cc39cc3bba73b"/>
-<approved hash="18,30,26732e1216001e08"/>
 <approved hash="18,30,ce1a36314e1fc61f"/>
+<approved hash="18,30,26732e1216001e08"/>
 <approved hash="18,30,6fca403240386fc0"/>
-<approved hash="18,30,2f7e871d64658400"/>
 <approved hash="18,30,3ab3a45de7c2bc36"/>
-<approved hash="18,30,d879a6faccc7c05f"/>
-<approved hash="18,30,f2dfd047d072f2ea"/>
+<approved hash="18,30,2f7e871d64658400"/>
 <approved hash="18,30,81800e32e02e1639"/>
+<approved hash="18,30,f2dfd047d072f2ea"/>
+<approved hash="18,30,d879a6faccc7c05f"/>
 <approved hash="18,30,4614f19cf1ba4632"/>
-<approved hash="18,30,d21a7231521fc21f"/>
 <approved hash="18,30,2273321252000208"/>
+<approved hash="18,30,d21a7231521fc21f"/>
 <approved hash="18,30,11ca2432243811c0"/>
-<approved hash="18,30,2ec8e84b949fa9df"/>
 <approved hash="18,30,1e4703d37d8bc91a"/>
+<approved hash="18,30,2ec8e84b949fa9df"/>
 <approved hash="18,30,ef3c086408baefe2"/>
 <approved hash="18,30,eeea7712666865ea"/>
 <approved hash="18,30,57351c62c6cc1514"/>
 <approved hash="18,30,871ba0d70cd96e61"/>
 <approved hash="18,30,ee3c07e4073aeee2"/>
 <approved hash="18,30,7a1ef9529d64821a"/>
+<approved hash="18,30,7e1a241224187e10"/>
 <approved hash="18,30,c4097e3a5737fc2f"/>
 <approved hash="18,30,2c22775b1e282438"/>
-<approved hash="18,30,7e1a241224187e10"/>
 <approved hash="18,30,6634c5b4c5926612"/>
 <approved hash="18,30,fc4250e97ee7c457"/>
-<approved hash="18,30,be5127f24fffc667"/>
 <approved hash="18,30,7fe4245c24697fd1"/>
+<approved hash="18,30,be5127f24fffc667"/>
 <approved hash="18,30,531cc79cc7ba533a"/>
-<approved hash="18,30,2a7ce21dfa0fd207"/>
 <approved hash="18,30,0215da3e8210ca10"/>
+<approved hash="18,30,2a7ce21dfa0fd207"/>
 <approved hash="18,30,f5ca10321038f5c0"/>
-<approved hash="18,30,325c689a74794ece"/>
 <approved hash="18,30,222a50d2722a8dd2"/>
+<approved hash="18,30,325c689a74794ece"/>
 <approved hash="18,30,8f3c04640bbb80e3"/>
 <approved hash="18,30,6e1eb9394c439f37"/>
 <approved hash="19,16,b57a8483fc665815"/>
