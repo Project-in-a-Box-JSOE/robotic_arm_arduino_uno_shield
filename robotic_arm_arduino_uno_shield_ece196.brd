@@ -3607,22 +3607,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="S2" library="PiB_switches" package="BTN_MOMENTARY_SPST-NO_PTH_L12-W12" value="50mA/12V" x="0" y="7.874" smashed="yes" rot="R90">
 <attribute name="CREATOR" value="MrSwirlyEyes" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Sparkfun" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="COM-10302" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="N/A" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="N/A" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1332-ND" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="1568-1332-ND" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="SparkFun Electronics" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="COM-10302" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-4.953" y="7.874" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" value="50mA/12V" x="0" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S3" library="PiB_switches" package="BTN_MOMENTARY_SPST-NO_PTH_L12-W12" value="50mA/12V" x="0" y="40.64" smashed="yes" rot="R270">
 <attribute name="CREATOR" value="MrSwirlyEyes" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST" value="Sparkfun" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTPN" value="COM-10302" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="N/A" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="N/A" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Digikey" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1332-ND" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="1568-1332-ND" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="SparkFun Electronics" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="COM-10302" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-5.207" y="40.64" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" value="50mA/12V" x="0" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 </element>

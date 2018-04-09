@@ -1883,11 +1883,11 @@
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" constant="no"/>
-<attribute name="DIST" value="Sparkfun" constant="no"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" constant="no"/>
-<attribute name="DISTPN" value="COM-10302" constant="no"/>
-<attribute name="MFR" value="N/A" constant="no"/>
-<attribute name="MPN" value="N/A" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1332-ND" constant="no"/>
+<attribute name="DISTPN" value="1568-1332-ND" constant="no"/>
+<attribute name="MFR" value="SparkFun Electronics" constant="no"/>
+<attribute name="MPN" value="COM-10302" constant="no"/>
 <attribute name="VALUE" value="50mA/12V" constant="no"/>
 </technology>
 </technologies>
