@@ -204,9 +204,9 @@
 <text x="44.323" y="13.589" size="0.6096" layer="21" font="vector" ratio="10" align="center">7.4V-12V</text>
 <text x="42.164" y="30.353" size="0.6096" layer="21" font="vector" ratio="10" rot="R90" align="center">7.4V-12V</text>
 <text x="29.083" y="36.703" size="1.27" layer="21" font="vector" ratio="20" rot="SR270">Robotic Arm Shield</text>
-<text x="27.686" y="23.622" size="0.8128" layer="21" font="vector" ratio="10" rot="SR270">Rev 3</text>
+<text x="27.686" y="23.622" size="0.8128" layer="21" font="vector" ratio="10" rot="SR270">Rev 4</text>
 <text x="16.51" y="36.83" size="1.778" layer="22" font="vector" ratio="20" rot="SMR270">Robotic Arm Shield</text>
-<text x="17.145" y="36.83" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR270" align="top-left">Rev 3
+<text x="17.145" y="36.83" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR270" align="top-left">Rev 4
 Designed by: Buu Truong
 CADed by: MrSwirlyEyes</text>
 <text x="11.684" y="5.461" size="0.6096" layer="22" font="vector" ratio="10" rot="SMR270">RST</text>
@@ -2841,20 +2841,7 @@ CADed by: MrSwirlyEyes</text>
 </library>
 <library name="PiB_connectors">
 <packages>
-<package name="POWER_JACK_SLOT_ID2.1MM-OD5.5MM">
-<wire x1="-2.1" y1="6.18" x2="1.1" y2="6.18" width="0" layer="46"/>
-<wire x1="-2.1" y1="6.18" x2="-1.6" y2="6.68" width="0" layer="46" curve="-90"/>
-<wire x1="-1.6" y1="6.68" x2="0.6" y2="6.68" width="0" layer="46"/>
-<wire x1="0.6" y1="6.68" x2="1.1" y2="6.18" width="0" layer="46" curve="-90"/>
-<wire x1="1.1" y1="6.18" x2="0.6" y2="5.68" width="0" layer="46" curve="-90"/>
-<wire x1="0.6" y1="5.68" x2="-1.6" y2="5.68" width="0" layer="46"/>
-<wire x1="-1.6" y1="5.68" x2="-2.1" y2="6.18" width="0" layer="46" curve="-90"/>
-<wire x1="-2.1" y1="-0.12" x2="-1.6" y2="0.38" width="0" layer="46" curve="-90"/>
-<wire x1="-1.6" y1="0.38" x2="0.6" y2="0.38" width="0" layer="46"/>
-<wire x1="0.6" y1="0.38" x2="1.1" y2="-0.12" width="0" layer="46" curve="-90"/>
-<wire x1="1.1" y1="-0.12" x2="0.6" y2="-0.62" width="0" layer="46" curve="-90"/>
-<wire x1="0.6" y1="-0.62" x2="-1.6" y2="-0.62" width="0" layer="46"/>
-<wire x1="-1.6" y1="-0.62" x2="-2.1" y2="-0.12" width="0" layer="46" curve="-90"/>
+<package name="POWER_JACK_PTH_ID2.1MM-OD5.5MM">
 <pad name="PWR" x="-0.5" y="6.18" drill="1" diameter="2" shape="long"/>
 <pad name="GND@1" x="-0.5" y="-0.12" drill="1" diameter="2" shape="long"/>
 <pad name="GND@2" x="4.5" y="3.18" drill="1" diameter="2" shape="long" rot="R90"/>
@@ -2871,56 +2858,6 @@ CADed by: MrSwirlyEyes</text>
 <wire x1="6" y1="-8" x2="6" y2="7.6" width="0.1" layer="39"/>
 <wire x1="6" y1="7.6" x2="-5" y2="7.6" width="0.1" layer="39"/>
 <wire x1="-5" y1="7.6" x2="-5" y2="-8" width="0.1" layer="39"/>
-<wire x1="4.5" y1="1.58" x2="4" y2="2.08" width="0" layer="46" curve="-90"/>
-<wire x1="4" y1="2.08" x2="4" y2="4.28" width="0" layer="46"/>
-<wire x1="4" y1="4.28" x2="4.5" y2="4.78" width="0" layer="46" curve="-90"/>
-<wire x1="4.5" y1="4.78" x2="5" y2="4.28" width="0" layer="46" curve="-90"/>
-<wire x1="5" y1="4.28" x2="5" y2="2.08" width="0" layer="46"/>
-<wire x1="5" y1="2.08" x2="4.5" y2="1.58" width="0" layer="46" curve="-90"/>
-</package>
-<package name="1X08-VERT-FEMALE">
-<wire x1="-10.41" y1="1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="-8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<pad name="4" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
-<pad name="8" x="8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="-10.41" y1="1.27" x2="10.4775" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="10.4775" y1="1.27" x2="10.4775" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="10.4775" y1="-1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
-</package>
-<package name="1X06-VERT-FEMALE">
-<wire x1="-7.87" y1="1.27" x2="7.87" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="7.87" y1="-1.27" x2="-7.87" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-7.87" y1="1.27" x2="-7.87" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<wire x1="7.87" y1="1.27" x2="7.87" y2="-1.27" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -3131,6 +3068,87 @@ CADed by: MrSwirlyEyes</text>
 </package>
 </packages>
 </library>
+<library name="PiB_boards">
+<packages>
+<package name="ARDUINO_UNO_R3_NO-HOLES_NO-AVR-ISP_NO-I2C_NO-NC_NO-IOREF">
+<wire x1="0" y1="66.04" x2="53.34" y2="66.04" width="0.2032" layer="51"/>
+<wire x1="53.34" y1="66.04" x2="53.34" y2="1.524" width="0.2032" layer="51"/>
+<wire x1="53.34" y1="1.524" x2="51.816" y2="0" width="0.2032" layer="51"/>
+<wire x1="51.816" y1="0" x2="40.386" y2="0" width="0.2032" layer="51"/>
+<wire x1="40.386" y1="0" x2="37.846" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="37.846" y1="-2.54" x2="5.08" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="0" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="66.04" width="0.2032" layer="51"/>
+<pad name="RESET@1" x="2.54" y="33.02" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="3.3V" x="2.54" y="30.48" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="5V" x="2.54" y="27.94" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="GND@1" x="2.54" y="25.4" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="GND@2" x="2.54" y="22.86" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="VIN" x="2.54" y="20.32" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A0" x="2.54" y="15.24" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A1" x="2.54" y="12.7" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A2" x="2.54" y="10.16" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A3" x="2.54" y="7.62" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A4" x="2.54" y="5.08" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="A5" x="2.54" y="2.54" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D0" x="50.8" y="2.54" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D1" x="50.8" y="5.08" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D2" x="50.8" y="7.62" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D3" x="50.8" y="10.16" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D4" x="50.8" y="12.7" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D5" x="50.8" y="15.24" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D6" x="50.8" y="17.78" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D7" x="50.8" y="20.32" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D8" x="50.8" y="24.384" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D9" x="50.8" y="26.924" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D10" x="50.8" y="29.464" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D11" x="50.8" y="32.004" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D12" x="50.8" y="34.544" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="D13" x="50.8" y="37.084" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="GND@3" x="50.8" y="39.624" drill="1.016" diameter="1.9304" rot="R270"/>
+<pad name="AREF" x="50.8" y="42.164" drill="1.016" diameter="1.9304" rot="R270"/>
+<wire x1="43.815" y1="72.39" x2="43.815" y2="56.515" width="0.2032" layer="51"/>
+<wire x1="43.815" y1="56.515" x2="32.385" y2="56.515" width="0.2032" layer="51"/>
+<wire x1="32.385" y1="56.515" x2="32.385" y2="72.39" width="0.2032" layer="51"/>
+<wire x1="32.385" y1="72.39" x2="43.815" y2="72.39" width="0.2032" layer="51"/>
+<wire x1="3.175" y1="67.945" x2="12.065" y2="67.945" width="0.2032" layer="51"/>
+<wire x1="12.065" y1="67.945" x2="12.065" y2="54.61" width="0.2032" layer="51"/>
+<wire x1="12.065" y1="54.61" x2="3.175" y2="54.61" width="0.2032" layer="51"/>
+<wire x1="3.175" y1="54.61" x2="3.175" y2="67.945" width="0.2032" layer="51"/>
+<text x="49.53" y="42.164" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">AREF</text>
+<text x="49.53" y="39.624" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">GND</text>
+<text x="49.53" y="37.084" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D13</text>
+<text x="49.53" y="34.544" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D12</text>
+<text x="49.53" y="32.004" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D11</text>
+<text x="49.53" y="29.464" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D10</text>
+<text x="49.53" y="26.924" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D9</text>
+<text x="49.53" y="24.384" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D8</text>
+<text x="49.53" y="20.32" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D7</text>
+<text x="49.53" y="17.78" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D6</text>
+<text x="49.53" y="15.24" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D5</text>
+<text x="49.53" y="12.7" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D4</text>
+<text x="49.53" y="10.16" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D3</text>
+<text x="49.53" y="7.62" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D2</text>
+<text x="49.53" y="2.54" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D0/RXI</text>
+<text x="49.53" y="5.08" size="0.8128" layer="51" font="vector" ratio="15" align="center-right">D1/TXO</text>
+<text x="3.81" y="33.02" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">!RESET!</text>
+<text x="3.81" y="30.48" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">3.3V</text>
+<text x="3.81" y="27.94" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">5V</text>
+<text x="3.81" y="25.4" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">GND</text>
+<text x="3.81" y="22.86" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">GND</text>
+<text x="3.81" y="20.32" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">VIN</text>
+<text x="3.81" y="15.24" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A0</text>
+<text x="3.81" y="12.7" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A1</text>
+<text x="3.81" y="10.16" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A2</text>
+<text x="3.81" y="7.62" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A3</text>
+<text x="3.81" y="5.08" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A4</text>
+<text x="3.81" y="2.54" size="0.8128" layer="51" font="vector" ratio="15" align="center-left">A5</text>
+<text x="26.67" y="66.5" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="26.67" y="-3" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3317,54 +3335,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="J2" library="PiB_connectors" package="1X06-VERT-FEMALE" value="1x06-VERT-FEMALE" x="17.78" y="2.54" smashed="yes" rot="MR180">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIST" value="Digikey" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DISTPN" value="S7004-ND" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Sullins Connector Solutions" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="PPTC061LFBN-RC" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="10.0838" y="0.9652" size="0.6096" layer="26" font="vector" ratio="10" rot="MR180"/>
-<attribute name="TESTED" value="NO" x="17.78" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" value="1x06-VERT-FEMALE" x="21.082" y="0.889" size="0.6096" layer="28" font="vector" ratio="10" rot="MR180"/>
-</element>
-<element name="J3" library="PiB_connectors" package="1X06-VERT-FEMALE" value="1x06-VERT-FEMALE" x="35.56" y="2.54" smashed="yes" rot="MR0">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIST" value="Digikey" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTPN" value="S7004-ND" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="Sullins Connector Solutions" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPTC061LFBN-RC" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="27.7368" y="0.9652" size="0.6096" layer="26" font="vector" ratio="10" rot="MR180"/>
-<attribute name="TESTED" value="NO" x="35.56" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" value="1x06-VERT-FEMALE" x="29.972" y="0.889" size="0.6096" layer="28" font="vector" ratio="10" rot="MR180"/>
-</element>
-<element name="J5" library="PiB_connectors" package="1X08-VERT-FEMALE" value="1x08-VERT-FEMALE" x="11.176" y="50.8" smashed="yes" rot="MR0">
-<attribute name="CREATOR" value="Kenmei" x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIST" value="Digikey" x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPTC081LFBN-RC&amp;v=35" x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTPN" value="S7006-ND " x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="Sullins Connector Solutions " x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPTC081LFBN-RC " x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="1.9558" y="53.0352" size="0.6096" layer="26" font="vector" ratio="10" rot="MR180"/>
-<attribute name="TESTED" value="NO" x="11.176" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" value="1x08-VERT-FEMALE" x="3.302" y="52.705" size="0.6096" layer="28" font="vector" ratio="10" rot="MR180"/>
-</element>
-<element name="J4" library="PiB_connectors" package="1X08-VERT-FEMALE" value="1x08-VERT-FEMALE" x="33.02" y="50.8" smashed="yes" rot="MR0">
-<attribute name="CREATOR" value="Kenmei" x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIST" value="Digikey" x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPTC081LFBN-RC&amp;v=35" x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DISTPN" value="S7006-ND " x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="Sullins Connector Solutions " x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="PPTC081LFBN-RC " x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="22.5298" y="53.0352" size="0.6096" layer="26" font="vector" ratio="10" rot="MR180"/>
-<attribute name="TESTED" value="NO" x="33.02" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" value="1x08-VERT-FEMALE" x="26.924" y="52.959" size="0.6096" layer="28" font="vector" ratio="10" rot="MR180"/>
-</element>
 <element name="R1" library="PiB_resistors" package="RESISTOR_SMD-805" value="10KΩ" x="1.27" y="19.05" smashed="yes" rot="R270">
 <attribute name="CREATOR" value="Kenmei" x="1.27" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" x="1.27" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3613,16 +3583,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TESTED" value="NO" x="35.56" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.068" y="30.226" size="0.6096" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="J1" library="PiB_connectors" package="POWER_JACK_SLOT_ID2.1MM-OD5.5MM" value="(ID,OD)=(2.1,5.5)MM" x="39.37" y="19.05" smashed="yes" rot="R90">
-<attribute name="CREATOR" value="MrSwirlyEyes" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET" value="http://www.memoryprotectiondevices.com/datasheets/EJ508A-datasheet.pdf" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J1" library="PiB_connectors" package="POWER_JACK_PTH_ID2.1MM-OD5.5MM" value="(ID,OD)=(2.1,5.5)MM" x="39.37" y="19.05" smashed="yes" rot="R90">
+<attribute name="DATASHEET" value="https://www.cui.com/product/resource/pj-059a.pdf" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIST" value="Digikey" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=EJ508A-ND" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="EJ508A-ND" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="MPD (Memory Protection Devices)" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="EJ508A" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CP-059A-ND" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="CP-059A-ND" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="CUI Inc." x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="PJ-059A" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.958" y="19.05" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
-<attribute name="TESTED" value="NO" x="39.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SUPPLY14" library="PiB_power_symbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="36.83" y="17.272" smashed="yes" rot="MR270"/>
 <element name="S1" library="PiB_switches" package="SW_TOGGLE_SPDT_5A-28V_13L-7W" value="5A/28V" x="41.91" y="41.91" smashed="yes" rot="R180">
@@ -3793,6 +3761,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$1" library="PiB_logo" package="PIB-LOGO" value="" x="6.35" y="26.67" rot="MR270"/>
 <element name="U$2" library="PiB_logo" package="MRSWIRLYEYES-LOGO" value="" x="26.67" y="27.94" rot="MR270"/>
 <element name="U$3" library="PiB_logo" package="PIB-LOGO" value="" x="17.018" y="10.922"/>
+<element name="ARDUINO1" library="PiB_boards" package="ARDUINO_UNO_R3_NO-HOLES_NO-AVR-ISP_NO-I2C_NO-NC_NO-IOREF" value="Arduino UNO R3" x="44.45" y="0" rot="R90">
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000066_Web.pdf" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1050-1024-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="1050-1024-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Arduino" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="A000066" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3808,9 +3784,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="-6.35" y="0"/>
 <vertex x="-6.35" y="53.34"/>
 </polygon>
-<contactref element="J2" pad="5"/>
-<contactref element="J2" pad="4"/>
-<contactref element="J5" pad="7"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="R2" pad="1"/>
@@ -3850,27 +3823,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="POT1" pad="CW"/>
 <contactref element="POT2" pad="CW"/>
 <contactref element="POT3" pad="CW"/>
-</signal>
-<signal name="AREF">
-<contactref element="J5" pad="8"/>
+<contactref element="ARDUINO1" pad="GND@1"/>
+<contactref element="ARDUINO1" pad="GND@2"/>
+<contactref element="ARDUINO1" pad="GND@3"/>
 </signal>
 <signal name="D13">
-<contactref element="J5" pad="6"/>
+<contactref element="ARDUINO1" pad="D13"/>
 </signal>
 <signal name="D12">
-<contactref element="J5" pad="5"/>
+<contactref element="ARDUINO1" pad="D12"/>
 </signal>
 <signal name="D11">
-<contactref element="J5" pad="4"/>
 <contactref element="PLAY_LED" pad="A"/>
 <wire x1="-5.08" y1="30.41" x2="-5.08" y2="35.56" width="0.254" layer="1"/>
 <wire x1="8.255" y1="48.895" x2="10.795" y2="48.895" width="0.254" layer="1"/>
 <wire x1="10.795" y1="48.895" x2="12.446" y2="50.546" width="0.254" layer="1"/>
 <wire x1="12.446" y1="50.546" x2="12.446" y2="50.8" width="0.254" layer="1"/>
 <wire x1="-5.08" y1="35.56" x2="8.255" y2="48.895" width="0.254" layer="1"/>
+<contactref element="ARDUINO1" pad="D11"/>
 </signal>
 <signal name="D10">
-<contactref element="J5" pad="3"/>
 <contactref element="REC_LED" pad="A"/>
 <wire x1="12.7" y1="48.26" x2="14.986" y2="50.546" width="0.254" layer="1"/>
 <wire x1="14.986" y1="50.546" x2="14.986" y2="50.8" width="0.254" layer="1"/>
@@ -3883,14 +3855,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-2.54" y1="24.13" x2="0" y2="24.13" width="0.254" layer="1"/>
 <wire x1="0" y1="24.13" x2="2.54" y2="26.67" width="0.254" layer="1"/>
 <wire x1="2.54" y1="26.67" x2="2.54" y2="31.115" width="0.254" layer="1"/>
+<contactref element="ARDUINO1" pad="D10"/>
 </signal>
 <signal name="D9">
-<contactref element="J5" pad="2"/>
 <contactref element="SERVO4" pad="1"/>
 <wire x1="17.526" y1="47.752" x2="17.526" y2="50.8" width="0.1524" layer="1"/>
+<contactref element="ARDUINO1" pad="D9"/>
 </signal>
 <signal name="D8">
-<contactref element="J5" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="S3" pad="1"/>
 <wire x1="20.066" y1="50.8" x2="18.161" y2="52.705" width="0.1524" layer="16"/>
@@ -3904,9 +3876,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-2.5" y1="34.25" x2="-2.5" y2="34.39" width="0.1524" layer="1"/>
 <wire x1="1.27" y1="30.21" x2="1.27" y2="30.48" width="0.1524" layer="1"/>
 <wire x1="1.27" y1="30.48" x2="-2.5" y2="34.25" width="0.1524" layer="1"/>
+<contactref element="ARDUINO1" pad="D8"/>
 </signal>
 <signal name="D7">
-<contactref element="J4" pad="8"/>
 <contactref element="R1" pad="2"/>
 <contactref element="S2" pad="3"/>
 <wire x1="1.27" y1="18.05" x2="1.27" y2="17.78" width="0.1524" layer="1"/>
@@ -3925,62 +3897,48 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-2.694" y1="14.124" x2="-2.5" y2="14.124" width="0.1524" layer="16"/>
 <wire x1="0" y1="40.64" x2="0" y2="33.655" width="0.1524" layer="16"/>
 <wire x1="-3.81" y1="29.845" x2="-3.81" y2="15.24" width="0.1524" layer="16"/>
+<contactref element="ARDUINO1" pad="D7"/>
 </signal>
 <signal name="D6">
-<contactref element="J4" pad="7"/>
 <contactref element="SERVO3" pad="1"/>
 <wire x1="26.67" y1="47.752" x2="26.67" y2="50.8" width="0.1524" layer="1"/>
+<contactref element="ARDUINO1" pad="D6"/>
 </signal>
 <signal name="D5">
-<contactref element="J4" pad="6"/>
 <contactref element="SERVO2" pad="1"/>
 <wire x1="29.21" y1="47.752" x2="29.21" y2="50.8" width="0.1524" layer="1"/>
+<contactref element="ARDUINO1" pad="D5"/>
 </signal>
 <signal name="D4">
-<contactref element="J4" pad="5"/>
+<contactref element="ARDUINO1" pad="D4"/>
 </signal>
 <signal name="D3">
-<contactref element="J4" pad="4"/>
 <contactref element="SERVO1" pad="1"/>
 <wire x1="34.29" y1="47.752" x2="34.29" y2="50.8" width="0.1524" layer="1"/>
+<contactref element="ARDUINO1" pad="D3"/>
 </signal>
 <signal name="D2">
-<contactref element="J4" pad="3"/>
+<contactref element="ARDUINO1" pad="D2"/>
 </signal>
 <signal name="TX">
-<contactref element="J4" pad="2"/>
+<contactref element="ARDUINO1" pad="D1"/>
 </signal>
 <signal name="RX">
-<contactref element="J4" pad="1"/>
+<contactref element="ARDUINO1" pad="D0"/>
 </signal>
 <signal name="A0">
-<contactref element="J3" pad="6"/>
-<wire x1="29.21" y1="5.588" x2="29.21" y2="2.54" width="0.1524" layer="1"/>
 <contactref element="POT1" pad="S"/>
 </signal>
 <signal name="A1">
-<contactref element="J3" pad="5"/>
-<wire x1="31.75" y1="5.588" x2="31.75" y2="2.54" width="0.1524" layer="1"/>
 <contactref element="POT2" pad="S"/>
 </signal>
 <signal name="A2">
-<contactref element="J3" pad="4"/>
-<wire x1="34.29" y1="5.588" x2="34.29" y2="2.54" width="0.1524" layer="1"/>
 <contactref element="POT3" pad="S"/>
 </signal>
 <signal name="A3">
-<contactref element="J3" pad="3"/>
-<wire x1="36.83" y1="5.588" x2="36.83" y2="2.54" width="0.1524" layer="1"/>
 <contactref element="POT4" pad="S"/>
 </signal>
-<signal name="A4">
-<contactref element="J3" pad="2"/>
-</signal>
-<signal name="A5">
-<contactref element="J3" pad="1"/>
-</signal>
 <signal name="VIN">
-<contactref element="J2" pad="6"/>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="42.037" y="38.481"/>
 <vertex x="35.941" y="38.481"/>
@@ -4019,16 +3977,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="41.275" y="33.909"/>
 <vertex x="42.037" y="34.671"/>
 </polygon>
-<wire x1="24.13" y1="2.54" x2="26.035" y2="0.635" width="0.254" layer="16"/>
 <wire x1="43.18" y1="0.635" x2="44.45" y2="1.905" width="0.254" layer="16"/>
 <wire x1="44.45" y1="1.905" x2="44.45" y2="16.51" width="0.254" layer="16"/>
 <via x="44.45" y="16.51" extent="1-16" drill="0.35"/>
-<wire x1="26.035" y1="0.635" x2="43.18" y2="0.635" width="0.254" layer="16"/>
+<wire x1="43.18" y1="0.635" x2="26.035" y2="0.635" width="0.254" layer="16"/>
 <wire x1="44.45" y1="16.51" x2="41.98" y2="14.04" width="0.254" layer="1"/>
-<wire x1="24.13" y1="2.54" x2="24.13" y2="3.81" width="1.27" layer="1"/>
+<contactref element="PWR_LED" pad="A"/>
+<contactref element="VREG1" pad="1"/>
+<contactref element="VREG2" pad="1"/>
+<contactref element="C0" pad="A"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="D4" pad="K"/>
+<contactref element="D5" pad="K"/>
+<contactref element="S1" pad="1"/>
+<wire x1="41.98" y1="14.04" x2="41.98" y2="10.16" width="0.254" layer="1"/>
+<contactref element="ARDUINO1" pad="VIN"/>
+<wire x1="26.035" y1="0.635" x2="24.13" y2="2.54" width="0.254" layer="16"/>
 </signal>
 <signal name="5V">
-<contactref element="J2" pad="3"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S2" pad="1"/>
 <wire x1="18.415" y1="0.635" x2="25.4" y2="0.635" width="0.254" layer="1"/>
@@ -4036,12 +4003,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.67" y1="1.905" x2="26.67" y2="6.35" width="0.254" layer="1"/>
 <wire x1="26.67" y1="6.35" x2="28.448" y2="8.128" width="0.254" layer="1"/>
 <wire x1="28.448" y1="8.128" x2="29.21" y2="8.128" width="0.254" layer="1"/>
-<wire x1="18.415" y1="0.635" x2="16.51" y2="2.54" width="0.254" layer="1"/>
 <wire x1="29.21" y1="8.128" x2="31.75" y2="8.128" width="0.254" layer="1"/>
 <wire x1="31.75" y1="8.128" x2="34.29" y2="8.128" width="0.254" layer="1"/>
 <wire x1="34.29" y1="8.128" x2="36.83" y2="8.128" width="0.254" layer="1"/>
 <wire x1="2.5" y1="14.124" x2="2.694" y2="14.124" width="0.1524" layer="1"/>
-<wire x1="16.51" y1="2.54" x2="14.605" y2="0.635" width="0.1524" layer="1"/>
 <wire x1="10.16" y1="0.635" x2="2.5" y2="8.295" width="0.1524" layer="1"/>
 <wire x1="2.5" y1="8.295" x2="2.5" y2="14.124" width="0.1524" layer="1"/>
 <wire x1="14.605" y1="0.635" x2="10.16" y2="0.635" width="0.1524" layer="1"/>
@@ -4050,12 +4015,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="POT1" pad="CCW"/>
 <contactref element="POT2" pad="CCW"/>
 <contactref element="POT3" pad="CCW"/>
-</signal>
-<signal name="3.3V">
-<contactref element="J2" pad="2"/>
-</signal>
-<signal name="RESET">
-<contactref element="J2" pad="1"/>
+<contactref element="ARDUINO1" pad="5V"/>
+<wire x1="16.51" y1="2.54" x2="14.605" y2="0.635" width="0.1524" layer="1"/>
+<wire x1="16.51" y1="2.54" x2="18.415" y2="0.635" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC_1">
 <contactref element="C3" pad="1"/>
@@ -4185,24 +4147,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="SERVO3" pad="3"/>
 <contactref element="SERVO4" pad="3"/>
 </signal>
-<signal name="VCC">
-<contactref element="PWR_LED" pad="A"/>
-<contactref element="VREG1" pad="1"/>
-<contactref element="VREG2" pad="1"/>
-<contactref element="C0" pad="A"/>
-<contactref element="C1" pad="1"/>
-<contactref element="C2" pad="1"/>
-<contactref element="D4" pad="K"/>
-<contactref element="D5" pad="K"/>
-<contactref element="S1" pad="1"/>
-<wire x1="32.91" y1="30.48" x2="41.91" y2="37.21" width="0" layer="19" extent="1-1"/>
-<wire x1="26.4" y1="25.4" x2="32.91" y2="30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="24.66" y1="27.94" x2="26.4" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="25.16" y1="22.2488" x2="26.4" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="14.97" y1="25.4" x2="24.66" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="13.23" y1="27.94" x2="14.97" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="13.73" y1="22.2488" x2="14.97" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="41.98" y1="10.16" x2="25.16" y2="22.2488" width="0" layer="19" extent="1-1"/>
+<signal name="N$29">
+<contactref element="ARDUINO1" pad="A0"/>
+</signal>
+<signal name="N$30">
+<contactref element="ARDUINO1" pad="A1"/>
+</signal>
+<signal name="N$31">
+<contactref element="ARDUINO1" pad="A2"/>
+</signal>
+<signal name="N$32">
+<contactref element="ARDUINO1" pad="A3"/>
+</signal>
+<signal name="N$33">
+<contactref element="ARDUINO1" pad="A4"/>
+</signal>
+<signal name="N$34">
+<contactref element="ARDUINO1" pad="A5"/>
+</signal>
+<signal name="3.3V">
+<contactref element="ARDUINO1" pad="3.3V"/>
+</signal>
+<signal name="RESET">
+<contactref element="ARDUINO1" pad="RESET@1"/>
+</signal>
+<signal name="AREF">
+<contactref element="ARDUINO1" pad="AREF"/>
 </signal>
 </signals>
 <errors>
