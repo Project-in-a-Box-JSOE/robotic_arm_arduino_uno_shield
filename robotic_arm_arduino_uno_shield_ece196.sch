@@ -1277,7 +1277,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="3.3V" prefix="SUPPLY">
 <gates>
 <gate name="3.3V" symbol="3.3V" x="0" y="0"/>
 </gates>
@@ -1289,7 +1289,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VIN" prefix="VIN" uservalue="yes">
+<deviceset name="VIN" prefix="SUPPLY">
 <gates>
 <gate name="VIN" symbol="VIN" x="0" y="0"/>
 </gates>
@@ -2863,11 +2863,22 @@
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000066_Web.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1050-1024-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=S1012E-06-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=PEC08SAAN" constant="no"/>
 <attribute name="DISTPN" value="1050-1024-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="S1012E-06-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="S1012E-08-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Arduino" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="A000066" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="PEC06SAAN" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="PEC08SAAN" constant="no"/>
+<attribute name="QTY_CONNECTOR1" value="2" constant="no"/>
+<attribute name="QTY_CONNECTOR2" value="2" constant="no"/>
 <attribute name="VALUE" value="Arduino UNO R3" constant="no"/>
 </technology>
 </technologies>
@@ -3330,12 +3341,22 @@
 <label x="182.88" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 <pinref part="POT1" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<wire x1="213.36" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="213.36" y="73.66" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="A0"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <wire x1="213.36" y1="-30.48" x2="210.82" y2="-30.48" width="0.1524" layer="91"/>
 <label x="213.36" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 <pinref part="POT2" gate="G$1" pin="S"/>
+</segment>
+<segment>
+<wire x1="213.36" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="213.36" y="71.12" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -3344,12 +3365,22 @@
 <label x="243.84" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 <pinref part="POT3" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="213.36" y="68.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="A2"/>
+</segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <label x="274.32" y="-30.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 <pinref part="POT4" gate="G$1" pin="S"/>
 <wire x1="271.78" y1="-30.48" x2="274.32" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="213.36" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+<label x="213.36" y="66.04" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3584,42 +3615,14 @@
 <pinref part="SERVO4" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="213.36" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
-<label x="213.36" y="73.66" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="ARDUINO1" gate="G$1" pin="A0"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="213.36" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
-<label x="213.36" y="71.12" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="ARDUINO1" gate="G$1" pin="A1"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
-<label x="213.36" y="68.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="ARDUINO1" gate="G$1" pin="A2"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<wire x1="213.36" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<label x="213.36" y="66.04" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<pinref part="ARDUINO1" gate="G$1" pin="A3"/>
-</segment>
-</net>
-<net name="N$33" class="0">
+<net name="A4" class="0">
 <segment>
 <wire x1="213.36" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
 <label x="213.36" y="63.5" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 <pinref part="ARDUINO1" gate="G$1" pin="A4"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="A5" class="0">
 <segment>
 <wire x1="213.36" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
 <label x="213.36" y="60.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -3644,18 +3647,18 @@
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,213.36,96.52,3.3V,,,,,"/>
-<approved hash="106,1,200.66,93.98,3.3V,,,,,"/>
-<approved hash="106,1,200.66,68.58,A4,,,,,"/>
-<approved hash="106,1,200.66,71.12,A5,,,,,"/>
-<approved hash="106,1,256.54,58.42,AREF,,,,,"/>
-<approved hash="106,1,256.54,101.6,D2,,,,,"/>
-<approved hash="106,1,256.54,96.52,D4,,,,,"/>
-<approved hash="106,1,256.54,66.04,D12,,,,,"/>
-<approved hash="106,1,256.54,63.5,D13,,,,,"/>
-<approved hash="106,1,200.66,96.52,RESET,,,,,"/>
-<approved hash="106,1,256.54,106.68,RX,,,,,"/>
-<approved hash="106,1,256.54,104.14,TX,,,,,"/>
+<approved hash="106,1,198.12,101.6,3.3V,,,,,"/>
+<approved hash="106,1,215.9,96.52,3.3V,,,,,"/>
+<approved hash="106,1,215.9,63.5,A4,,,,,"/>
+<approved hash="106,1,215.9,60.96,A5,,,,,"/>
+<approved hash="106,1,251.46,101.6,AREF,,,,,"/>
+<approved hash="106,1,251.46,66.04,D2,,,,,"/>
+<approved hash="106,1,251.46,71.12,D4,,,,,"/>
+<approved hash="106,1,251.46,93.98,D12,,,,,"/>
+<approved hash="106,1,251.46,96.52,D13,,,,,"/>
+<approved hash="106,1,215.9,101.6,RESET,,,,,"/>
+<approved hash="106,1,251.46,60.96,RX,,,,,"/>
+<approved hash="106,1,251.46,63.5,TX,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -3763,11 +3763,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$3" library="PiB_logo" package="PIB-LOGO" value="" x="17.018" y="10.922"/>
 <element name="ARDUINO1" library="PiB_boards" package="ARDUINO_UNO_R3_NO-HOLES_NO-AVR-ISP_NO-I2C_NO-NC_NO-IOREF" value="Arduino UNO R3" x="44.45" y="0" rot="R90">
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000066_Web.pdf" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIST" value="Digikey" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1050-1024-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=S1012E-06-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=PEC08SAAN" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTPN" value="1050-1024-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN_CONNECTOR1" value="S1012E-06-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN_CONNECTOR2" value="S1012E-08-ND" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Arduino" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A000066" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN_CONNECTOR1" value="PEC06SAAN" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN_CONNECTOR2" value="PEC08SAAN" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="QTY_CONNECTOR1" value="2" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="QTY_CONNECTOR2" value="2" x="44.45" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3928,15 +3939,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="A0">
 <contactref element="POT1" pad="S"/>
+<contactref element="ARDUINO1" pad="A0"/>
+<wire x1="29.21" y1="5.588" x2="29.21" y2="2.54" width="0.1524" layer="1"/>
 </signal>
 <signal name="A1">
 <contactref element="POT2" pad="S"/>
+<contactref element="ARDUINO1" pad="A1"/>
+<wire x1="31.75" y1="2.54" x2="31.75" y2="5.588" width="0.1524" layer="1"/>
 </signal>
 <signal name="A2">
 <contactref element="POT3" pad="S"/>
+<contactref element="ARDUINO1" pad="A2"/>
+<wire x1="34.29" y1="2.54" x2="34.29" y2="5.588" width="0.1524" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="POT4" pad="S"/>
+<contactref element="ARDUINO1" pad="A3"/>
+<wire x1="36.83" y1="5.588" x2="36.83" y2="2.54" width="0.1524" layer="1"/>
 </signal>
 <signal name="VIN">
 <polygon width="0.1524" layer="1" isolate="0.254">
@@ -4147,22 +4166,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="SERVO3" pad="3"/>
 <contactref element="SERVO4" pad="3"/>
 </signal>
-<signal name="N$29">
-<contactref element="ARDUINO1" pad="A0"/>
-</signal>
-<signal name="N$30">
-<contactref element="ARDUINO1" pad="A1"/>
-</signal>
-<signal name="N$31">
-<contactref element="ARDUINO1" pad="A2"/>
-</signal>
-<signal name="N$32">
-<contactref element="ARDUINO1" pad="A3"/>
-</signal>
-<signal name="N$33">
+<signal name="A4">
 <contactref element="ARDUINO1" pad="A4"/>
 </signal>
-<signal name="N$34">
+<signal name="A5">
 <contactref element="ARDUINO1" pad="A5"/>
 </signal>
 <signal name="3.3V">
